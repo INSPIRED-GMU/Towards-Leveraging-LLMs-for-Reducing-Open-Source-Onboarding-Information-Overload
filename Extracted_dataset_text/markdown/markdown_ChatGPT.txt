@@ -1,0 +1,31 @@
+How to Contribute to Markdown Here
+
+Project Links:
+Project Page:Markdown Here on GitHub(link)
+Discussion Group: Google Group (link)
+Website:(link)
+Contact:Email Adam Pritchard (mailto:pritchard.adam@gmail.com)
+
+Code Contributions:
+
+Contributor License Agreement:
+Before your first pull request, you need to agree to the contributor license agreement. You can do this for either individuals (link) or entities (link). Create a file in `/contributors/{github_username}.md` in your pull request, indicating your agreement. See adam-p's agreement file (link) as an example.
+
+Translation Help:
+For translation, we use Crowdin. Visit the [Markdown Here Crowdin project page](https://crowdin.net/project/markdown-here) to contribute. Feel free to add new translations, improve existing ones, or even create new language categories. If you make changes, or have any questions or problems, please post to the MDH Google Group or create a Github issue.
+
+Special Thanks to Contributors:
+ Emanuele D'Osualdo for TeX math rendering. Issue #26(link)
+Dustin Engstrom for contributions. PR #151 (link)
+ And many translators who have significantly contributed,
+
+For Code Contributions:
+1. Fork and Clone:Start by forking the project and cloning your fork.
+2. Set Up Environment:Install Node.js from nodejs.org (link).
+3.Install gulp: Run `npm install -g gulp-cli` in the terminal.
+4. Prepare for Changes:Switch to the TypeScript folder and run `npm ci` to install dependencies.
+5.Test Changes: Use `gulp runtests-parallel` to ensure all tests pass.
+6. Make Changes: Implement your fixes or features.
+7. Commit: Commit your changes with a descriptive message.
+
+Contributing goes beyond coding. Translating, reporting issues, helping others in the community, or simply spreading the word about Markdown Here—all contributions are valuable and appreciated. Remember to sign the CLA and let the community know about your translation work on Crowdin or any issues you open on GitHub.

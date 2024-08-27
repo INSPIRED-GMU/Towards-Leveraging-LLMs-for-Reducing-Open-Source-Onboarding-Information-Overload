@@ -1,0 +1,29 @@
+How to Help with jQuery
+Thanks for wanting to contribute to jQuery! Here's a simple guide to get you started.
+Before You Start
+This place is only for jQuery Core code development. For plugins, contact the plugin author. For API docs, report here (link). Other project issues go to their specific repos (link).
+
+Getting Involved
+ Learn: Understand our API design principles (link). We welcome help with bug finding, test writing, and documentation.
+Contribute: If you have a new feature idea, make sure it fits our guidelines (link). For more on contributing, check (link). Don't forget to sign the Contributor License Agreement when making a pull request (link).
+
+Questions and Discussion
+Ask: Got a question? Try Stack Overflow (link) first. For longer discussions or specific queries about jQuery Core development, use our forum (link)or chat with us in IRC at #jquery-dev (link).
+Meet: Join our weekly status meeting on IRC at #jquery-meeting (link).
+
+How to Report Bugs
+Check First: Many issues are actually caused by user code. Try asking for help on forums or Stack Overflow.
+Disable Extensions**: Ensure the problem isn't caused by a browser extension by testing in a clean browser session.
+Use the Latest jQuery**: Test with the latest version (link) to make sure it's still an issue.
+Simplify: Reduce your code to the smallest example that still shows the problem. This helps us fix issues faster.
+Search and Report: Look for similar issues in our tracker (link). If it's new, create an issue with all the details.
+
+Tips for Bug Patching
+Local Setup: Fork the repo (link) and set up your local environment. Run `$ npm run build` to build jQuery and open the test suite at `http://localhost/test`.
+Test Suite: Use the test suite for your changes. You can run specific module tests to speed things up. Always run the full suite before finalizing your patch.
+Watch Changes: Use `$ grunt watch` to automatically rebuild jQuery as you code, or load tests as ECMAScript modules directly on the test page for quicker testing.
+Repo Organization: jQuery uses ECMAScript modules compiled at build time. Check the "src" folder to see how we organize code.
+
+Remember
+Your code must work across all supported browsers. Check the browser support page (link) for the full list.
+Contributions to jQuery make a big impact, helping millions of developers. Thank you for your support!

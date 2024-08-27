@@ -1,0 +1,73 @@
+Contributing to PyTorch 
+
+ How to Start Contributing:
+1. Idea Sharing: Got a feature idea or a bug to fix? 
+Start by discussing it in a GitHub issue at PyTorch's repository: (link).
+
+2. Choosing an Issue: Want to contribute to existing tasks?
+Search for an open issue here: (link).
+Comment on the issue you're interested in to let others know you'll be working on it.
+
+Setting Up Your Development Environment:
+1. Remove Old Versions**: Ensure no older installations interfere.
+   bash
+   conda uninstall pytorch -y
+   pip uninstall torch -y  # Repeat until it's fully uninstalled
+   
+
+2. Clone PyTorch:
+   bash
+   git clone (link)
+   cd pytorch
+   
+
+3. Update Your Local Repository (if you've cloned it before):
+   bash
+   git pull --rebase
+   git submodule sync --recursive
+   git submodule update --init --recursive --jobs 0
+   
+
+4. Install PyTorch in Develop Mode:
+  	This lets you make changes without reinstalling PyTorch.
+   bash
+   python setup.py develop
+   
+
+Testing and Debugging Your Changes:
+  Run Python Unit Tests**:
+  bash
+  python test/run_test.py  # For the entire suite
+  python test/test_specific_file.py  # For specific tests
+  
+  Run C++ Unit Tests** (after building PyTorch):
+  bash
+  ./build/bin/test_cpp_binary --gtest_filter=TestSuite.TestName
+  
+
+Documentation and Linting:
+  Building Documentation: To build and check your documentation changes locally.
+  bash
+  cd docs/
+  pip install -r requirements.txt
+  make html
+  
+  Running Linters**: To ensure your code meets PyTorch's coding standards.
+  bash
+  make lint  # For all files
+  make quicklint  # For changed files only
+  
+  Running clang-tidy**: For C++ code analysis and fixing.
+  bash
+  python3 -m tools.linter.install.clang_tidy
+  make clang-tidy  # Check entire codebase
+  make clang-tidy CHANGED_ONLY=--changed-only  # Check your changes
+  Submitting Your Contributions:
+Once you've implemented and tested your feature or bug fix, create a Pull Request (PR) to the main PyTorch repository.
+Additional Tips:
+
+Keep your local repository up to date with the main PyTorch repository.
+Pay close attention to the feedback from Continuous Integration (CI) systems on your PRs.
+For C++ development, consider using `ninja` for faster builds and `ccache` to avoid recompiling unchanged files.
+For CUDA development, utilize `cuda-gdb` and `cuda-memcheck` for debugging.
+

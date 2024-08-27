@@ -1,0 +1,38 @@
+How to Contribute to Svelte
+
+Get Started
+Explore Svelte: Begin by using Svelte. Check the Getting Started Guide (link). If you see room for improvement or find bugs, let us know by opening an issue.
+Open Issues: Browse open issues (link), especially ones tagged as good first issue (link). 
+You can help by offering solutions, clarifications, or suggesting labels.
+
+Submit Fixes: Found something to fix? Great! Open a pull request with your changes.
+
+Improve Tutorials: Go through the tutorials (link). 
+Click "Edit this chapter" to improve or clarify them.
+Suggest Features: Have ideas? Look at requested features (link) or open a new feature request.
+
+Help Without Coding
+Triaging Issues: You can assist by organizing issues and pull requests, asking for more details, suggesting labels, or identifying stale issues.
+Review Pull Requests: Offer feedback on PRs. Note that approving or rejecting changes is reserved for core committers.
+
+ Reporting Bugs:
+Use GitHub Issues (link) to report bugs. Check if the issue exists before reporting.Provide steps to reproduce, browser and OS info. Use the REPL(link) to demonstrate bugs when possible.
+
+Proposing Changes
+New Features: For large changes, create an RFC (link) to discuss beforehand.
+Bug Fixes: Directly submit a pull request. It's still a good idea to create an issue detailing what you're fixing.
+
+Pull Requests
+1. Fork & Branch: Fork Svelte repository (link) and create your branch.
+2. Describe Test Plan: In your PR, describe how you tested the changes.
+3. Follow Coding Style: Make sure your code adheres to the style guide. Run tests to ensure compliance.
+4.Detailed PRs: Smaller, detailed PRs are preferred. Ensure it addresses only one issue or feature.
+
+Testing Your Changes
+Running Tests: All tests are in the `/test` folder. Run tests with specific commands provided in the contributing guide.
+Solo Tests: To focus on one test, add `.solo` to the test sample folder or test suite folder.
+
+License Agreement
+By contributing, you agree your contributions will be licensed under Svelte's MIT license (link).
+
+This guide is simplified, but make sure to follow the detailed instructions in Svelte’s contribution guidelines and adhere to their code of conduct. Your contributions, big or small, are valuable to Svelte's growth and improvement.

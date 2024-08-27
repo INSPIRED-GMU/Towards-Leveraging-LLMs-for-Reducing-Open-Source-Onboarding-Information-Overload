@@ -1,0 +1,55 @@
+
+Contributing to Atom
+
+Welcome! This guide helps you contribute to Atom and its packages. These are mostly suggestions, not strict rules. Use your judgment and feel free to propose changes to this document.
+
+How to Get Started
+
+Atom and Packages:Atom is a big open-source project with over 200 parts. If you're unsure which part to change or report a bug for, this section can help.
+Reporting Bugs:This section guides you through submitting a bug report for Atom.
+
+Before Submitting a Bug Report
+
+Check this list to see if your issue might already be known.
+When reporting a bug, include as many details as possible. Fill out the required template.
+Search for existing issues before creating a new one.
+
+How to Submit a Good Bug Report
+
+Bugs are tracked as GitHub issues.
+Create an issue on the relevant repository and provide the following information:
+    A clear title for the issue.
+    Specific steps to reproduce the problem.
+    Expected behavior vs actual behavior.
+    Screenshots or animated GIFs (if applicable).
+    Crash report (if applicable).
+    More context (e.g. can you reproduce in safe mode?).
+Include details about your environment:
+  Atom version
+  Operating system
+  Installed packages
+  Configuration files
+  Multiple monitors setup
+  Keyboard layout
+
+Suggesting Enhancements
+
+This section guides you through submitting suggestions for new features or improvements.
+
+Before Submitting an Enhancement Suggestion
+Check the debugging guide and see if the feature already exists.
+Check for existing packages that provide the enhancement.
+Search for existing suggestions before creating a new one.
+
+How to Submit a Good Enhancement Suggestion
+
+Use a clear title for the issue.
+Provide a step-by-step description of the suggestion.
+Include specific examples.
+Describe the current behavior and what you expect instead.
+Include screenshots or GIFs (if applicable).
+Explain why this enhancement would be useful.
+
+I don't want to read this whole thing, I just have a question!**
+
+Refer to the Atom message board or Atom FAQ for answers to common questions.

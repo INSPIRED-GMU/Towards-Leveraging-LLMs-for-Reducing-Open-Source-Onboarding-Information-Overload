@@ -1,0 +1,28 @@
+How to Contribute to Flutter in a Nutshell
+Welcome! There are many ways to help Flutter:
+Write code and send pull requests.
+Report issues you find on GitHub.
+Answer questions on chats or forums like Stack Overflow.
+Help sort through issues (triage).
+Improve documentation. 
+We value people who are kind, respectful, and professional.
+Helping with Issues:
+1. Join the #hackers-triage chat on Discord.
+2. Read our code of conduct to be polite and professional.
+3. Learn how to triage issues from our wiki: (link)
+ Start by asking for more info, marking duplicates, etc.
+4. Get familiar with our labels and milestones:(link)
+5. After a while, you might be able to add labels!
+Writing Code:
+1. Check out our good first contribution list: (link)
+2. Follow our development steps in order:
+   Code of Conduct:(link)
+   Values:(link)
+   Engine development environment (if needed): (link)
+Framework development environment: (link)
+   More info on pull requests, code review, etc.: (link)
+   How to handle issues: (link)
+   Code formatting and style guide: (link)
+   Design document template (for complex changes): (link)
+
+There's also a video on YouTube, articles, and more resources on our Discord and wiki. 

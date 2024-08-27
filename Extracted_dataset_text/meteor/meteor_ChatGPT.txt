@@ -1,0 +1,70 @@
+Contributing to Meteor
+
+Welcome, and thanks for your interest in contributing to Meteor! This guide is here to help you understand how to contribute effectively.
+
+Code of Conduct
+
+We follow the Contributor Covenant (link). Please read our Code of Conduct(link) to understand what actions are encouraged and which ones are not.
+
+Ways to Contribute
+
+Contributions can take many forms, from reporting bugs and documentation improvements to code submissions. Here are some ways you can contribute:
+
+1. Reporting bugs
+2. Improving documentation
+3. Triaging issues
+4. Submitting pull requests for code changes
+5. Reviewing pull requests
+6. Organizing or participating in community events
+
+You can find more detailed information on contributing here: (link).
+
+Finding Work
+
+New here? Start with "good first issue" labels:(link). These are curated to be approachable for newcomers. 
+
+Project Roles
+
+Reviewers: Community members who review Pull Requests.
+Core Committers: Contributors with commit access, responsible for the main codebase.
+
+Reporting a Bug
+
+If you find a bug, report it on our GitHub issue tracker (link). Make sure to search first to see if the issue has already been reported. When reporting, provide a detailed description and a link to a minimal reproduction of the bug.
+
+Submitting Pull Requests
+To submit a code change:
+1. Fork the repository.
+2. Clone your fork: `git clone https://github.com/<your username>/meteor.git`
+3. Add the main repository as an upstream remote: `git remote add upstream https://github.com/meteor/meteor.git`
+4. Sync your master branch: 
+   git checkout master
+   git pull upstream master
+5. Install dependencies with `meteor npm install`.
+6. Create a new branch for your changes: `git checkout -b my-new-branch`
+7. Make your changes, commit, and push to your fork.
+8. Open a Pull Request on the Meteor GitHub page(link).
+
+ Making Changes
+
+Base your work on the `devel` branch.
+Name your branch based on the change you're making.
+Include tests to prove your changes work.
+Follow the project's code style guide (link).
+
+Tips for Getting Accepted
+
+Sign the Contributor License Agreement (CLA) when asked.
+Include one feature or bug fix per pull request.
+Provide a clear description of your changes and include tests.
+Make sure to bump the version of any changed packages accordingly.
+
+Trying Your Changes
+
+For changes to the core, it's essential to understand Meteor's architecture and to propose your change before working on it. You can discuss potential changes on GitHub Discussions or the Meteor forums.
+
+Need Help?
+
+If you're unsure about where to start or need more guidance, reach out to one of the core committers or start a discussion on our forums or GitHub. 
+
+Thanks for contributing to Meteor, and happy coding!

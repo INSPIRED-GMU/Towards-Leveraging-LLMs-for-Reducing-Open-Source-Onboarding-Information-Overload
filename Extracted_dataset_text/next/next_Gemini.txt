@@ -1,0 +1,26 @@
+Contributing to Next.js:
+
+Before you start:
+
+Watch a 40-minute video on how to contribute link:((link)
+Read about their commitment to open source link: [(link)
+How to contribute:
+Search for existing issues or contributions before making your own link: (link)
+
+Developing:
+1. Get your own copy of the code (fork and clone).
+2. Create a new branch for your changes.
+3. Install dependencies with `yarn install`
+4. Start developing with `yarn dev`
+5. Run tests with `yarn testonly`
+6. Check code formatting with `yarn lint`
+
+Adding an example:
+1. Add a new directory for your example.
+2. Include a README.md file with instructions.
+3. Make it TypeScript if possible.
+4. Use `next/image`.
+5. Add deployment instructions (if applicable).
+
+Publishing (for maintainers only):
+Use `yarn publish-canary` to publish new versions.

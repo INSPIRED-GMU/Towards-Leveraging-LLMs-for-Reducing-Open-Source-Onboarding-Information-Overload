@@ -1,0 +1,128 @@
+Guide to contributing to Neovim:
+Getting Started
+Want to help Neovim but unsure where to begin? Here are some beginner-friendly tasks:
+1. Find an issue labeled "complexity:low" link to good first issue is unavailable. These are simple problems you can fix.
+2. Look for bugs reported by Clang, PVS or Coverity (automated bug finders).
+3. Improve the documentation ([link to documentation is unavailable]).
+Reporting Problems
+Check the FAQ ([link to FAQ is unavailable]).
+Search existing issues to avoid duplicates ([link to search issues is unavailable]).
+Update Neovim to see if the problem persists.
+Try to reproduce the problem with a clean Neovim setup (`nvim --clean`).
+If you think it's a code issue, narrow down the cause by disabling plugins one by one.
+For code issues, try to isolate the problem in the source code (`git bisect`).  
+Include a stack trace when reporting crashes ([link to stack trace info is unavailable]).
+Use ASAN/UBSAN for detailed error messages (related to memory).
+Check Neovim's log file (`edit $NVIM_LOG_FILE`).  
+
+For Developers
+Read Neovim's developer help (`:help dev`, `:help dev-ui`, `:help dev-api-client`).
+Install ninja for faster builds (`sudo apt-get install ninja-build`).
+Absolutely, I've maintained all URLs used in the text:
+
+Getting Started
+Want to help Neovim but unsure where to begin? Here are some beginner-friendly tasks:
+
+1. Find an issue labeled "complexity:low" (link). These are simple problems you can fix.
+2. Look for bugs reported by Clang, PVS or Coverity (automated bug finders).
+3. Improve the documentation (link).
+
+Reporting Problems
+
+Check the FAQ (link).
+Search existing issues to avoid duplicates (link).
+Update Neovim to see if the problem persists.
+Try to reproduce the problem with a clean Neovim setup (`nvim --clean`).
+If you think it's a code issue, narrow down the cause by disabling plugins one by one.
+For code issues, try to isolate the problem in the source code (`git bisect`) (link).
+Include a stack trace when reporting crashes (link).
+Use ASAN/UBSAN for detailed error messages (related to memory).
+Check Neovim's log file (`edit $NVIM_LOG_FILE`).  
+For Developers
+
+Read Neovim's developer help (`:help dev`, `:help dev-ui`, `:help dev-api-client`).
+Install ninja for faster builds (`sudo apt-get install ninja-build`).
+
+Pull Requests (PRs)
+
+Create draft PRs to avoid duplicate work. 
+Include tests for your changes (link). 
+Avoid unrelated changes in the same commit.
+Use a separate feature branch instead of modifying the main code (`master`).
+Use a rebase workflow for small PRs. Rebasing allows you to combine commits into a cleaner history. (link)
+Use a merge workflow for large or risky PRs. Merging integrates your changes with the main codebase. (link)
+Don't edit commits that come before the merge commit.
+During a squash/fixup, use `exec make -C build unittest` between each change you make.
+
+PR Stages
+
+Draft: Use this while you're still working on the PR.
+Ready for review: When your PR is ready for feedback from others.
+
+Commit Messages
+
+Follow the recommended format to make reviewing easier. 
+`<type>([optional scope]): <description>`  
+Optional details can follow the description.
+Use prefixes like `fix`, `feat`, `test` to describe the type of change (refer to full guide for details on prefixes).
+Keep the first line concise (under 72 characters).
+Use the imperative voice ("Fix bug" instead of "Fixed bug").
+Mark breaking changes with `!` and a "BREAKING CHANGE" explanation.  
+
+Automated Builds (CI)
+
+Each PR must pass automated tests (https://github.com/topaxi/gh-actions.nvim).
+Failing tests or compiler warnings will cause the build to fail.  
+You can run some tests locally (`make test`).
+
+Code Style
+
+Run the linter to check your code for errors (`make lint`).
+Neovim uses a specific coding style. Use `uncrustify` or `clang-format` to automatically format your code.
+
+Reviewing
+
+Review other people's PRs to help improve Neovim. 
+Use the code review checklis (link).
+
+This simplified guide should help you get started with contributing to Neovim! Remember, the full guide has more details and explanations, so refer to that if you have any questions.
+Pull Requests (PRs)**
+
+Create draft PRs to avoid duplicate work. 
+Include tests for your changes ([link to test coverage is unavailable]). 
+Avoid unrelated changes in the same commit.
+Use a separate feature branch instead of modifying the main code (`master`).
+Use a rebase workflow for small PRs. Rebasing allows you to combine commits into a cleaner history.
+Use a merge workflow for large or risky PRs. Merging integrates your changes with the main codebase.
+Don't edit commits that come before the merge commit.
+During a squash/fixup, use `exec make -C build unittest` between each change you make.
+
+PR Stages
+
+Draft: Use this while you're still working on the PR.
+Ready for review: When your PR is ready for feedback from others.
+
+Commit Messages
+
+Follow the recommended format to make reviewing easier. 
+`<type>([optional scope]): <description>`  
+ Optional details can follow the description.
+Use prefixes like `fix`, `feat`, `test` to describe the type of change.
+Keep the first line concise (under 72 characters).
+Use the imperative voice ("Fix bug" instead of "Fixed bug").
+Mark breaking changes with `!` and a "BREAKING CHANGE" explanation.  
+
+Automated Builds (CI)
+
+Each PR must pass automated tests.
+Failing tests or compiler warnings will cause the build to fail.  
+You can run some tests locally (`make test`).
+
+Code Style**
+
+Run the linter to check your code for errors (`make lint`).
+Neovim uses a specific coding style. Use `uncrustify` or `clang-format` to automatically format your code.
+
+Reviewing
+Review other people's PRs to help improve Neovim. 
+Use the code review checklist .

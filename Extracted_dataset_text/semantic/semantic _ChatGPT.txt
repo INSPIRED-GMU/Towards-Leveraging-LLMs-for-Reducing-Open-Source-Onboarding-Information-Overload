@@ -1,0 +1,32 @@
+How to Help with Semantic UI
+
+Got Questions?
+Where to Ask: If you're stuck or wondering how to do something with Semantic UI:
+Chat in Gitter (link).
+ Post on Semantic UI forums (link).
+Ask on StackOverflow (link).
+Found a Bug?: If the community suggests it might be a bug, then it’s time to report it!
+Reporting Bugs:
+Where to Report: Use the GitHub Issues Tracker (link).
+How to Report: 
+ Show the bug with this JSFiddle (link).
+ Describe steps to recreate the issue, including browser and OS.
+Extra Step for Framework Bugs: If it involves frameworks like Ember or Angular, post to their issue boards first. If it's definitely a Semantic UI issue, a simple example helps a lot!
+
+ How to Name Your Issues:
+Bugs: Use `[Component] Sub-type should do correct behavior`. For instance:
+`[Dropdown] Multiple Selection Should Preserve "Set Selected" Order`
+New Features: Use `[Component] Add new feature`. Like:
+Dropdown Add "Clearable" Setting`
+
+Keeping Track of Issues:
+Check upcoming milestones (link) to see when changes are expected.
+
+Making Contributions with Pull Requests:
+Where to Start: Picking up bugs from the issues board is a great way to help out.
+What to Follow: Stick to the style guides for your contributions.
+Where to Merge: All PRs should aim for the `next` branch.
+How to Contribute: 
+Create a Pull Request (link).
+Find an Issue to work on (link).
+Your contributions help make Semantic UI even better. Thanks for getting involved!

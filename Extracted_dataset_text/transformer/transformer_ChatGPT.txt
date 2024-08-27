@@ -1,0 +1,95 @@
+How to Help Out with Transformers
+Everyone's welcome to help out! You don't just have to write code. You can help by answering questions, helping others, improving our documentation, or even just by spreading the word about the library. Every bit helps!
+Respect Others:Please follow our code of conduct (link) when you contribute.
+Ways to Contribute:
+1. Fix Issues:Help fix bugs or problems in the existing code.
+2. New Models: Implement new models to expand the library.
+3.Improve Examples/Docs:Help improve our examples or documentation.
+4. Feature Requests/Bugs: Submit new feature ideas or report bugs.
+
+Start with Good First Issues: If you're new, check out Good First Issues (link). These are easier tasks great for first-timers. Feel ready for more? Look for issues labeled Good Second Issue** for a bit more of a challenge.
+
+Reporting Issues or Feature Requests
+
+Found a Bug? Before reporting, please check if it's already been reported. If not, include your operating system, Python, PyTorch, and TensorFlow versions, a short code snippet to reproduce the bug, and any error messages.
+
+Want a New Feature or Model? Please provide:
+ A brief description and paper link (if it's a model).
+Open-source implementation link (if available).
+Model weights link (if available).
+Let us know if you're willing to help contribute it!
+
+Start Contributing (Pull Requests)
+
+Before You Start:
+Make sure no one else is working on the same thing. Check PRs and issues first.
+You'll need to know some git. Check out Pro Git (link) for a good reference.
+
+Steps to Contribute:
+
+1.Fork the Repository:Click the 'Fork' button on the repository's page to create your copy.
+2. Clone and Set Up Remotes:
+   git clone git@github.com:<your Github handle>/transformers.git
+   cd transformers
+   git remote add upstream (link)
+ 
+3. Create a New Branch for Your Changes:
+
+   git checkout -b descriptive-name-for-my-changes
+  
+4. Set Up Development Environment:
+   
+   pip install -e ".[dev]"
+ 
+   If you've installed Transformers before, you might need to reinstall it in editable mode.
+
+5. Develop Features and Run Tests:**
+   	Make sure your changes don't break anything by running relevant tests:
+   	pytest tests/<TEST_TO_RUN>.py
+	Format your code and check for issues with:
+    
+     make style
+     make quality
+ 
+Check the full test suite and documentation build instructions if you're modifying docs.
+
+6. Commit Your Changes:
+
+   git add modified_file.py
+   git commit
+
+   Write good, clear commit messages.
+
+7. Sync with Upstream Regularly:**
+
+   git fetch upstream
+   git rebase upstream/main
+
+8. Push and Submit a Pull Request (PR):
+
+   git push -u origin descriptive-name-for-my-changes
+
+   Go to your fork on GitHub and click 'Pull request' to send your changes for review.
+
+After Submitting PR:
+It's normal to be asked for changes. Just update your branch, and your PR will update automatically.
+Make sure the PR checklist is satisfied before submission.
+
+PR Checklist:
+Summarize your contribution in the PR title.
+Mention related issues in the description.
+Ensure tests pass and add new ones for high coverage.
+All public methods need informative docstrings compatible with sphinx.
+Avoid adding large files to keep the repository size manageable. Use external links for big files.
+
+Running Tests:
+We prefer pytest for running tests. Check the documentation for specific commands.
+Slow tests and custom tokenizer tests are skipped by default. Use environment variables `RUN_SLOW=yes` and `RUN_CUSTOM_TOKENIZERS=yes` to include them.
+
+Style Guide:
+We follow the Google style for docstrings. 
+Check our documentation guide (link) for more details.
+
+Developing on Windows:
+To use make commands on Windows, consider using MSYS2 and adding it to your PATH.
+Syncing Your Fork: To keep your fork up to date without unnecessary notifications to upstream developers, merge changes directly into your main branch or use squash commits when necessary

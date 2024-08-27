@@ -1,0 +1,52 @@
+Contributing to Grafana in a Snap
+
+Welcome to Grafana! We want your help, but everyone needs to play nice (see the Code of Conduct here: (link).
+
+There are many ways to help:
+
+Write code for Grafana itself.
+Find and report bugs.
+Make cool dashboards and plugins for others to use.
+Write helpful guides and articles.
+Organize Grafana meetups in your area.
+Answer questions from other Grafana users.
+
+See more ways to help here: (link)
+
+Finding and Reporting Bugs:
+
+Before you report a bug, see if someone else already has: (link)
+To report a bug, fill out this form: (link)
+Give as much detail as possible so we can fix the bug fast!
+
+Security Issues:
+If you find a security problem, see our security policy here: (link)
+
+Suggesting Improvements:
+
+Got an idea to make Grafana better? Share it here: (link)
+We also want to make Grafana accessible to everyone. Report accessibility issues here: (link)
+Writing Documentation:
+
+Want to help write guides and articles? Check out how here: (link)
+Helping Others:
+
+* If you know a lot about Grafana, answer questions on the community site: (link)
+
+Your First Contribution:
+
+Not sure where to start? Look for issues labeled "beginner friendly" here:  (link)
+You can also help with issues labeled "help wanted" here: (link)
+If you want to write code, see how to set up your development environment here: (link)
+When you're ready to add your changes to Grafana, create a pull request here: (link)
+
+Almost Done!
+
+Before we can accept your code changes, you'll need to sign our Contributor License Agreement (CLA). You'll most likely be prompted to do this when you create your pull request. 
+
+Where to Learn More:
+
+Set up your development environment: (link)
+Learn how to contribute documentation: (link)
+Get started developing plugins for Grafana: (link)
+Look through more resources in the contribute folder here: (link)

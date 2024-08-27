@@ -1,0 +1,37 @@
+Simplified Guide to Contributing to Guava
+
+We appreciate your interest in helping Guava! Here's a basic idea of how to get involved:
+
+Adding New Features (APIs):
+
+Talk about it first! New features require careful discussion. Create a new issue on GitHub explaining what you'd like to see and why it's useful. 
+If the idea is accepted, we'll discuss how to design the feature before any coding starts.
+
+Fixing Bugs or Making Improvements:
+
+Small fixes (like typos) are welcome as pull requests.
+For bigger changes, it's good to create an issue first, even for minor things. This helps keep everyone on the same page. 
+Here are some examples of helpful pull requests:
+Fixing bugs without changing anything users see (public APIs).
+Improving Guava's documentation. 
+ Making Guava's build system (Maven) better.
+
+Code Contribution Rules:
+
+Big changes should have tests to make sure they work correctly. 
+Your code needs to follow specific formatting rules (see Google's Java Style Guide). 
+All code must be licensed under Apache 2.0.
+Combine your changes into one commit before submitting your pull request.
+Write a clear and concise message explaining your changes.
+
+Merging Your Contribution:
+
+Guava's code is also used internally by Google. Because of this, we can't directly merge pull requests into the main Guava branch.
+Instead, if your contribution is accepted, we'll make the changes internally and credit you in the commit.
+
+Contributor License Agreement (CLA):
+
+To contribute to Guava, you need to sign a Contributor License Agreement (CLA). This basically says Google can use your code as part of Guava. 
+There are two types of CLAs: one for individuals and one for companies.
+You can find the CLAs and more info on Google's open-source website. 
+You usually only need to sign a CLA once for all Google projects.

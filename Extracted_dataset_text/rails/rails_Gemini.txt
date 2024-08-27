@@ -1,0 +1,32 @@
+How to contribute to Ruby on Rails:
+Found a bug in Ruby on Rails?
+Search for the bug on GitHub Issues (link) first.
+If not found, open a new issue with a title, description, and info to recreate the bug (like code or a test).
+Use templates to create the issue:
+   Active Record models, database : (link)
+   Action Pack controllers, routing: (link)
+  Other issues: (link)
+More info on submitting bugs: 
+
+Fixed a bug in Ruby on Rails?
+
+Open a new GitHub pull request with your fix.
+Clearly describe the problem and solution in the description.
+Include the issue number you fixed (if applicable).
+Read the guide before submitting: (link)
+
+Made cosmetic changes (formatting, whitespace)?
+
+These changes are usually not accepted.
+
+Adding a new feature or changing an existing one?
+
+Discuss your idea on the mailing list first: (link)
+Get positive feedback before opening an issue on GitHub.
+
+Have questions about the code?
+
+Ask on the mailing list: (link)
+
+Want to contribute to the documentation?
+`

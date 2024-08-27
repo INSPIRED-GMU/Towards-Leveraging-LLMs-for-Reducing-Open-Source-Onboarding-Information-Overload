@@ -1,0 +1,41 @@
+Helping to Improve jQuery
+Here's a simple guide on how to get involved with making jQuery even better!
+Finding Your Way Around:
+This guide is for fixing the core code of jQuery, not plugins.
+Report plugin bugs to the plugin author.
+Report API documentation issues to the API repo(link).
+Report bugs for other jQuery projects in their own repos (link).
+How to Get Started:
+There are ways to help beyond writing new features (which are rare).
+You can help find bugs, write tests, or improve the documentation.
+Learn more about contributing at (link).
+This includes tips and tricks for getting started.
+Be sure to review the guide on making commits and pull requests (link).
+This will show you how to properly submit changes.
+You'll need to sign an agreement before your changes can be accepted. You can preview it on GitHubs((link).
+Got Questions? Here's Where to Ask:
+Many people know jQuery well.
+Check forums like Stack Overflow (link) first for answers.
+The jQuery Core team follows the jQuery Development Forum (link).
+Use this for longer discussions or questions that can't be answered on forums like Stack Overflow.
+If you think you found a bug, report it officially (not on the forum).
+The Core team can also be found in an online chat channel ((link).
+They have weekly meetings to discuss progress (link).
+Reporting Bugs:
+Make sure it's actually a bug in jQuery, not your code.
+Try getting help on forums first (link).
+Disable browser extensions as they can sometimes cause issues.
+Test with the latest version of jQuery (link).
+Simplify the problem to the bare minimum to make it easier to fix.
+Search for existing bug reports before submitting a new one (link).
+
+Fixing Bugs (Patches):
+We love people who fix bugs they find!
+It takes time for changes to be reviewed and released because so many people use jQuery.
+To fix bugs, you'll need to make a local copy of the jQuery code.
+Instructions for this can be found in the full guide.
+This includes running tests to make sure your fix doesn't break anything else.
+
+Remember:
+Always test your changes thoroughly before submitting them.
+Browse the full guide for more details and explanations. 

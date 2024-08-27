@@ -1,0 +1,29 @@
+Contributing to Electron: A Simple Guide
+
+Welcome! :+1::tada:  Thanks for wanting to help improve Electron!  :tada::+1:
+
+This guide explains how to report bugs, ask questions, and submit code changes (pull requests).
+
+How to Help
+
+Report a bug:  If you find a problem, search for existing issues here: link to Electron issues. If you can't find one, create a new issue and describe the bug clearly. If possible, include steps to reproduce the bug.
+* **Ask a question:** If you're stuck, you can ask for help in an issue.
+* **Submit code changes:** If you've made improvements to Electron, you can submit a pull request. 
+
+Before you contribute:**
+
+Read the Contributor Covenant here: link to Electron Contributor Covenant. This explains the rules for working on Electron.
+We accept questions and bugs in any language, but an English translation is helpful!
+
+Pull Requests:
+Pull requests are the way to propose changes to Electron's code, documentation, or tools.
+To make a pull request, you'll need to follow steps to set up your environment. This includes creating a fork, building the code, and making a branch. There are more details about this process here: link to Electron development guide.
+* Once you've made your changes, write a clear description of what you've done and why. 
+* Test your changes carefully before submitting your pull request.
+* We'll review your pull request and may ask you to make changes before it's merged into Electron.
+
+Want to learn more?
+
+For a deeper dive into developing Electron, check out the full guide here: link to Electron development guide.
+
+We appreciate your contribution to Electron!

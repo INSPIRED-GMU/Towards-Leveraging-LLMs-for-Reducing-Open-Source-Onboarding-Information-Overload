@@ -1,0 +1,20 @@
+Helping Django!
+
+Django loves your help! Here are some ways you can contribute:
+
+Fix typos or mistakes in the code (code patches).
+Improve the instructions (documentation).
+Report bugs you find.
+Review other people's bug reports and code fixes (patch reviews).
+
+For more details, look here: [https://docs.djangoproject.com/en/5.0/](https://docs.djangoproject.com/en/5.0/)
+
+Important!
+
+To report bugs or suggest changes, write a ticket first.
+Django uses a system called Trac to track issues because it works better for their community than GitHub.
+You can still submit your code changes as pull requests, but they might get missed if you don't also make a ticket.
+
+Be Nice!
+
+Please read and follow the Django Code of Conduct to help keep the community welcoming to everyone.

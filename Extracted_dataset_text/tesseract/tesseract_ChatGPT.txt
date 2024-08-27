@@ -1,0 +1,40 @@
+Contributing
+Asking for Help or Reporting Problems
+If You Find a Bug:
+Create an issue: if you think there's a bug.
+Use the user forum here (link) for help with using Tesseract, installation problems, OCR accuracy questions, training questions, or any general questions. 
+Check the Improve Quality documentation (link) and the official training guides (link) before asking about improving OCR accuracy or training.
+When to Report an Issue:
+Only for Linux (not older than 4 years), Windows (Windows 7 or newer), or macOS (last 3 releases).
+For other systems or older versions, use the forum.
+Mention your operating system and its version when you report an issue.
+Look through existing issues first to see if someone else has reported the same problem.
+Only report issues for the latest official release. You can also check if your issue is fixed in the latest development version.
+Before Reporting an Issue:
+Make sure the problem happens with the Tesseract command line program.
+If you're using Tesseract through another program or wrapper, contact the developers of that software.
+You need the trained data for English (eng) and OSD. Check that Tesseract can find these files with a command.
+Sharing Files and Errors:
+Share example files to show the problem but don't share private information.
+Files should be less than 20 MB. If bigger, share a zip file or a link to download them.
+Share error messages by copying and pasting them. Use three backticks (\`\`\`) to format command outputs or code samples.
+Be Nice:
+Remember, most people helping out are volunteers or other users. Be polite and understanding.
+For Tesseract Development Discussion:
+Use the tesseract developers forum (link) for talks on bug fixes, improvements, or add-ons.
+
+For Developers: Sharing Your Changes
+Before Sharing:
+Make sure your changes work.
+Include all necessary submodules (like `googletest`, `test`). 
+
+Use `git submodule update --init recursive` for each submodule needed.
+Check the README, testing instructions, and installation documentation (link).
+
+Making a Pull Request:
+Build the library and command-line interface with `make`.
+Test it with `make check`.
+Build the training tools with `make training`.
+If everything works, push your changes to a new branch in your fork of Tesseract on GitHub, then make a pull request. Here’s how: Creating a pull request from a fork (link).
+
+Keep an eye on automated build statuses and quality scans. If they show your changes made things worse, you might need to fix those issues.

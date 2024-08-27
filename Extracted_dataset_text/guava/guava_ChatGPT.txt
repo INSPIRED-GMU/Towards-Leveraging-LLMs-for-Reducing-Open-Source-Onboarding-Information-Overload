@@ -1,0 +1,40 @@
+How to Help Out
+Thank you for wanting to help with Guava! Here are some simple points about helping:
+
+1. If you want to change how Guava works or add new things, we need to talk about it first. The code part comes later.
+2. Pull requests are great for quick fixes like bugs or updating help info.
+3. Pull requests don’t go straight into the main part of the project.
+4. Adding your own code? You need to agree to let Google use your work by signing a Google CLA.
+
+Changing or Adding New Things
+We’re really careful when we change Guava or add new stuff (link). If you’ve got a new idea, the best start is to ask for it by creating an issue (link) and explain why it’s a good idea.
+
+If your idea is really good, we’ll plan and check it carefully. We’ll think about writing the code after that.
+
+Suggesting Improvements
+If your change is small, like fixing a spelling mistake, it’s best to tell us about it first by opening a new issue. It helps us keep track of what everyone is working on. Big changes, especially to how things work, need to be talked about a lot before we start coding.
+
+Pull requests that help right away include:
+
+Fixing a mistake without messing with how things work.
+Making the instructions clearer.
+Making project settings better.
+
+If You’re Writing Code:
+1. Big changes should be checked to make sure they work. You can look at how we’ve tested other things to get an idea.
+2. Your work must be shared under the Apache 2.0 license, and all files should include the license note (you can copy this from another file).
+3. Your files should follow Google’s Java style (link).
+4. Put all your changes into one update (you can do this with git rebase -i).
+
+Try to write a clear message for your update (link).
+
+Adding Your Changes to Guava
+Since Guava is part of Google's big project, we can’t add your changes directly. But, when your pull request is ready, we’ll update it on our side and credit you for the work.
+
+Agreeing to Share Your Work
+To add to any Google project, you need to sign a Contributor License Agreement. This lets Google use and share your work as part of the project.
+
+- If it’s just you making something new, sign an individual CLA (link). Include your GitHub username.
+- If you’re working for a company that lets you contribute, you need a company CLA (link).
+
+You usually only need to sign this once, so if you’ve done it before for another project, you likely don’t need to do it again.

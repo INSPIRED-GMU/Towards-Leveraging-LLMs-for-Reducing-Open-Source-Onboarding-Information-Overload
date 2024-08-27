@@ -1,0 +1,10 @@
+how to contribute to TensorFlow Model Garden:
+
+How to Help
+ Want to improve TensorFlow Model Garden? Great!
+Read these instructions carefully: TensorFlow Model Garden contribution guidelines: (link).
+Not all changes can be merged right away (someone needs to approve them). 
+  Find the person in charge of the specific model you're changing (called a code owner) using this list: TensorFlow Model Garden code owners: (link). 
+  Contact them to get your changes merged.
+  
+Still have questions? Search online or ask the TensorFlow community for help.

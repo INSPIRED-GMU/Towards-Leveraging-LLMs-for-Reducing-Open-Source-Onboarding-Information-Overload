@@ -1,0 +1,67 @@
+Contribute to Transformers:
+
+How to Help
+Everyone can help in many ways!
+Fix bugs (report them first!).
+Add new models (with info and weights).
+Improve the documentation (write well!).
+Spread the word (mention Transformers in your projects).
+
+Reporting Bugs
+Search for existing reports before creating a new one. 
+Include your OS version, Python version, PyTorch/TensorFlow version (if applicable).
+Provide a short code snippet to reproduce the bug.
+Include the full error message.
+Be patient, volunteers will answer your questions.
+
+Adding New Models
+Briefly describe the model and link to the paper.
+Include a link to the code (if open-source).
+Provide a link to the model weights (if available).
+Let the team know if you're willing to contribute the model yourself.
+
+Adding Features
+Clearly explain the purpose of the feature. 
+Include a code snippet demonstrating its future use.
+Attach a link to a related paper (if applicable).
+Provide additional information (drawings, screenshots).
+
+Start Contributing (Pull Requests)
+Search for existing PRs to avoid duplicate work.
+You'll need some familiarity with git.
+Follow the steps below to get started:
+
+1. Fork the Transformers repository on GitHub.
+2. Clone your fork to your local machine.
+3. Create a new branch for your changes.
+4. Set up a development environment.
+5. Develop the features on your branch.
+* Make sure your changes pass the tests.
+* Use Transformers' formatting tools to keep things consistent.
+6. Commit your changes with clear messages.
+7. Push your changes to your forked repository.
+8. Create a pull request on GitHub.
+9. Respond to reviewer feedback and make changes as needed.
+
+Checklist for Pull Requests
+
+Clear and concise pull request title.
+Link to related issues in the description (if applicable).
+Use `[WIP]` prefix for work in progress.
+Existing tests pass.
+New high-quality tests are added.
+All public methods have informative docstrings.
+No large non-text files are added (use hf.co hosted datasets).
+
+Testing
+
+An extensive test suite is available.
+Use `pytest` to run tests from the command line.
+You can specify a smaller set of tests to run.
+Set environment variables to run slow or custom tokenizer tests.
+
+Style Guide
+
+Follow the Google style guide for documentation strings.
+Refer to the documentation writing guide for more information.
+ 

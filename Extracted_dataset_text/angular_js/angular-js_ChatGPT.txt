@@ -1,0 +1,65 @@
+Helping Out with AngularJS
+We're really excited that you're interested in helping make AngularJS even better! Here's a simple guide on how you can contribute:
+Be Nice: It's important to us that everyone feels welcome. Please read and follow our kindness rules.
+Have a Question or Found a Problem? Stack Overflow is the best place to ask questions. For bugs or feature ideas, tell us on GitHub.
+Improving the Docs? Your suggestions are welcome! You can either tell us what to fix or fix it yourself.
+Before Sending Your Changes: Please make sure you agree to our Contributor License Agreement (CLA).
+Code of Conduct
+Help us keep AngularJS welcoming. Please follow our Code of Conduct.
+Questions, Bugs, and Features
+Got a Question?
+For questions, Stack Overflow is your friend. We keep GitHub for bugs and feature requests.
+Stack Overflow is great because:
+Many people are there to help.
+Questions and answers help others too.
+The best answers are easy to find.
+Found a Bug?
+If you spot a bug in the code, tell us on GitHub. Better yet, you can fix it and submit a Pull Request.
+For issues with localization: AngularJS uses the Google Closure I18N library, so any changes should be directed to the Common Locale Data Repository (CLDR) project or the Closure guide.
+Missing a Feature?
+ Feel free to ask for new features on GitHub.
+Big ideas should be discussed first; small changes can be directly submitted.
+Want to Help with Docs?
+For small tweaks, just go ahead. For bigger changes, let us know to avoid duplicate work.
+Use the "Improve this doc" button for quick edits.
+Test your changes if they're big, and follow our guidelines for commit messages.
+Submitting Issues and Pull Requests
+Before Submitting an Issue:
+Look through existing issues to avoid duplicates.
+Provide as much info as possible to help us understand:
+What went wrong?
+Why is this a problem for you?
+Which version of AngularJS are you using?
+Does this happen in all browsers?
+Can you show us the error (with a live example or steps to reproduce)?
+Making a Pull Request:
+1. Look for similar Pull Requests first.
+2. Start by creating a new branch for your fixes:
+
+   git checkout -b my-fix-branch master
+
+3. Make your changes, including tests. Follow our coding rules.
+4. Run the tests to make sure everything's still working.
+5. Commit your changes with a clear message:
+
+   git commit -a
+
+6. Before sending it to us, run all tests one more time:
+
+   yarn grunt test
+
+7. Push your branch and create the Pull Request on GitHub.
+After Your Pull Request is Merged:
+You can delete your branch:
+
+  git push origin --delete my-fix-branch
+ 
+Update your master branch with the latest from upstream:
+  git checkout master -f
+  git branch -D my-fix-branch
+  git pull --ff upstream master
+
+Signing the CLA
+When you make a Pull Request, a bot will ask you to sign our CLA if you haven't already. This is quick and necessary even for docs.
+Individuals can use a simple online form. Companies need to send a signed form.
+Thanks for contributing to AngularJS!

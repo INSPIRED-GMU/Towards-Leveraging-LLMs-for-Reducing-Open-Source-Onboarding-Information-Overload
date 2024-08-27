@@ -1,0 +1,18 @@
+Helping with Go
+Go is a project with input from many people. We’re thankful for any help you provide!
+Before Reporting a Problem
+- If you're not sure you've found a bug, please ask on the Go mailing list (link)  or other Go forums first. If it turns out to be a bug, you can then report it in the issue tracker.
+
+Reporting Issues
+- For urgent security issues, email them to security@golang.org. Check the security guidelines (link)  for more info.
+- The best way to report an issue is by using `go bug`. But if you report an issue another way, please be ready to answer these questions:
+  1. Which version of Go are you using (`go version`)?
+  2. What computer system and processor type are you using?
+  3. What actions did you take?
+  4. What did you expect to happen?
+  5. What actually happened?
+- For suggesting changes, see how to propose changes to Go (link) .
+
+Adding Code
+- Please look at the Contribution Guidelines (link)  before submitting code changes.
+- Unless mentioned otherwise, Go's source files are shared under a BSD-style license found in the LICENSE file.

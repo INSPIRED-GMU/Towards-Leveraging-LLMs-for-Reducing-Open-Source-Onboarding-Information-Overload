@@ -1,0 +1,42 @@
+Contributing to Angular 
+Guidelines
+Be Nice: Always follow our Code of Conduct (Link) to make Angular welcoming.
+Questions?: For questions, use Stack Overflow (Link) with the `angular` tag, instead of GitHub.
+Found a Bug?: Report bugs on GitHub (Link). If you can, submit a Pull Request (PR) with a fix.
+New Feature Request?: Suggest new features on GitHub (Link). Big ideas should be discussed first; smaller ones can go directly to a PR.
+How to Help
+Questions and Problems: Use Stack Overflow for questions. For real-time chat, our Discord server (Link) is available.
+Reporting Bugs: First, see if the bug is already reported. If not, open a new issue on GitHub. If you're fixing a bug, you're welcome to submit a PR.
+Feature Requests: Propose new features on GitHub. For large changes, start with an issue to discuss; for small ones, you can directly submit a PR.
+Making Changes
+Before Submitting an Issue: Search the issue tracker (Link) to avoid duplicates. Provide details for faster resolution.
+Submitting PRs:
+  1. Look for similar PRs first.
+  2. For big changes, discuss in an issue first. Sign the CLA (Link) before sending PRs.
+  3. Fork the repo, create a new branch for your changes, and commit your work.
+  4. Include tests and follow coding standards.
+  5. Make sure all tests pass.
+  6. Submit your PR with a descriptive commit message.
+
+PR Review Process
+Community Conduct: PRs may be declined from those not following our conduct guidelines.
+Feedback: Update your code based on feedback. Ensure tests pass. Push updates.
+Commit Messages: If asked, update your commit messages for clarity. Use `git commit --amend` and push with force if necessary.
+After PR is Merged
+You can delete your branch.
+Pull the latest changes from the main repository.
+
+Coding Standards
+Tests are required for fixes/features. Public API methods must be documented.
+Follow Google's JavaScript Style Guide (Link), wrapping code at 100 characters.
+
+Commit Message Guidelines
+Format: `<type>(<scope>): <short summary>`.
+Types: `build`, `ci`, `docs`, `feat`, `fix`, `perf`, `refactor`, `test`.
+Summary in present tense, not capitalized, no period.
+CLA
+Must sign the CLA (Link) before we can accept your contributions.
+Individuals use a simple online form. Corporations need a bit more process.
+For detailed guidelines and how to set your commit email, visit GitHub Help (Link).
+
+

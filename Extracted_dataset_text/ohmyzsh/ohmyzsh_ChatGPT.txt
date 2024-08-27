@@ -1,0 +1,47 @@
+Contributing to Oh-My-Zsh
+Welcome! Your help in improving Oh-My-Zsh is greatly appreciated. Here's a simple guide to get you started.
+Before You Start
+Read the Code of Conduct: It's important to follow our Code of Conduct (link).
+Reporting Issues
+Got a problem or a suggestion?
+Search First: Look through existing issues to see if someone else has already reported your problem or suggestion.
+Providing Details: When reporting issues, include steps to reproduce the problem, what you expected to happen, and what actually happened. Mention relevant people with their GitHub handle (@username).
+
+Submitting Pull Requests
+Got a solution or something to add?
+1. Learn the Basics: Familiarize yourself with GitHub Pull Requests (link).
+2. Fork and Clone: Fork Oh-My-Zsh (link) and clone your fork.
+   git clone https://github.com/<your-username>/ohmyzsh
+   cd ohmyzsh
+   git remote add upstream (link)
+   
+3. Stay Updated: Pull the latest changes from upstream.
+   git checkout master
+   git pull upstream master
+   
+4. Work on a New Branch**: Always create a branch for your changes.
+   git checkout -b <branch-name>
+   
+5. Commit Your Changes**: Follow our commit guidelines (link). Write clear commit messages.
+6. Rebase and Push**: Keep your branch updated and push it to your fork.
+   
+   git pull --rebase upstream master
+   git push origin <branch-name>
+   
+7. Open a Pull Request: Go to GitHub and open a new pull request against the Oh-My-Zsh repository.
+
+Commit Guidelines
+
+Use the Conventional Commits format:
+
+type(scope): subject
+Type: Could be `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `build`, `ci`, `chore`.
+Scope: Part of the codebase your changes affect (e.g., `git` plugin). Leave blank if not applicable.
+Subject: Brief description of the changes.
+Search Before You Leap
+Use GitHub’s Search Features: Before contributing, search for existing issues and pull requests to avoid duplicates and find related discussions.
+Check the FAQ: See if your issue or suggestion is covered in the FAQ (link).
+Volunteering
+Interested in helping out more? Check our Volunteer Page (link) for where to start.
+
+Thank you for contributing to Oh-My-Zsh! Your efforts help make the project better for everyone.

@@ -1,0 +1,24 @@
+How to Help with Ruby on Rails
+
+Found a Bug?
+For security bugs, don't post on GitHub. Go here instead: Rails Security (link).
+Already reported?  Search Rails Issues (link) to see if it's already there.
+New bug? If you can't find it, post a new issue here (link). Include a good title, clear description, lots of details, and a code sample or test showing what should happen but isn't.
+
+Made a Fix?
+Got a fix? Awesome! Make a new pull request (PR) with your patch.
+Describe it well** in the PR. If it's related to an issue, mention that issue number.
+
+Just Styling or Formatting?
+Cosmetic changes might not get accepted. We're looking for things that make Rails more stable, functional, or testable.
+
+Adding or Changing Features?
+1. Propose it first in the rubyonrails-core mailing list (link).
+2. Wait for feedback before making a GitHub issue. Issues are mainly for bugs and fixes.
+
+Curious about the Code?
+- Questions on how to use Rails?** Ask them in the rubyonrails-talk mailing list (link).
+
+Want to Improve Rails Docs?
+- Read this: Contributing to Rails Documentation (link).
+

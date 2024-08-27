@@ -1,0 +1,55 @@
+Efficiently Contributing to Godot
+Reporting Bugs
+Always open one issue per bug.
+Search existing issues before reporting a new one:(link)
+Include required information in your report:
+  Operating system version (e.g. Windows 10)
+  Godot version (e.g. 3.2)
+  Device (CPU model, GPU model, if applicable)
+  Steps to reproduce the bug
+  Simple, example project to reproduce the issue (ZIP file)
+  Note for C# users: Use GDScript or VisualScript if possible.
+ Upload a minimal reproduction project within 7 days if requested, otherwise the report may be   closed.
+ Report a bug here:(link)
+
+Proposing Features or Improvements
+Feature proposals are no longer accepted in the main issue tracker.
+Head to the Godot Proposals repository: (link)
+Follow the instructions in the README file.
+
+Contributing Pull Requests
+Make sure your contribution is desired by the community.
+Discuss implementation with other developers before making a pull request.
+Similar rules apply to bug fixes.
+Read this article for details on how pull requests are assessed:(link)
+See the Engine development guide for an introduction to developing on Godot:(link)
+The Contributing docs also have important info on the PR workflow and code style:((link)
+Documenting Your Changes
+If your pull request adds methods, properties or signals, update the class reference to document those:(link)
+Follow the style guide:(link)
+Add comments to the code to explain non-obvious changes.
+
+Writing Unit Tests
+Include unit tests in your pull request whenever possible: (link)
+This helps ensure the changes don't cause regressions in the future.
+
+Keeping a Clean Git History
+Make small pull requests that handle one specific topic.
+Use git pull --rebase to update your fork.
+Make commits that bring the engine from one stable state to another.
+Use git rebase -i to merge commits before making a pull request.
+See this Git style guide for more practices: (link)
+Our PR workflow documentation has tips on using Git: (link)
+Formatting Your Commit Messages
+Keep commit messages short and readable (under 72 characters).
+The first line should describe the commit globally.
+Use an extended description for more details (wrapped at 80 characters).
+Contributing to Godot's Translation
+Translate Godot from the Hosted Weblate: (link)
+Refer to the translation readme for more information: (link)
+You can also translate Godot's documentation on Weblate.
+Communicating with Developers
+Use the following channels to talk to developers:
+Godot Contributors Chat: (link) (best for discussions)
+  Bug tracker: (link) (for specific bug discussions)
+ Feature proposals: (link) (to propose new features)

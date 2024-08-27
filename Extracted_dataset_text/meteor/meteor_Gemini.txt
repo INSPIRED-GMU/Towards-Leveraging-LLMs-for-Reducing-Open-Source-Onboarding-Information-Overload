@@ -1,0 +1,35 @@
+How to Contribute
+
+There are many ways to help Meteor! Here are some options, from easiest to hardest:
+
+1. Report a bug: If you find a bug, create an issue: (link) with a clear description and steps to reproduce it (ideally with a minimal reproduction repository).
+2. Help with existing issues:**  
+  Up-voteissues you care about.
+   Comment with additional information.
+3. Improve documentation:Edit the documentation directly on (link) or (link).
+4. Write code:
+   Look for issues labeled "good first issue" (link to good first issue is unavailable).
+    Discuss your feature proposals in the Discussions section: (link).
+Once your feature is approved (labeled "ready"), create a pull request on GitHub.
+
+Submitting a Pull Request
+
+1. Make sure your change is well-specified and has community support.
+2. Get your change labeled "ready" in a discussion.
+3. Sign the CLA (a bot will ask you to do this).
+4. Base your work on the `devel` branch.
+5. Give your branch a clear name related to your change.
+6. Make one change per pull request.
+7. Include tests for your code.
+8. Follow the coding style guide (link).
+9. Update the version of the changed package (patch, minor, or major bump depending on the impact).
+10. Fill out your author information in Git.
+11. You can submit unfinished pull requests as drafts on GitHub.
+
+Additional Resources
+
+Project roles: (link)
+Finding work: How to find good first issue is unavailable, but look for issues labeled "good first issue"
+Triaging issues:[link to triage issues is unavailable]
+
+Remember, the Meteor community is here to help!

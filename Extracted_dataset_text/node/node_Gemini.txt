@@ -1,0 +1,22 @@
+contributing to Node.js:
+
+Be nice!
+
+Follow the Node.js Code of Conduct link: (link)
+
+Got a question?
+
+Ask on Stack Overflow instead of creating an issue.
+
+Found a bug?
+
+Report it as an issue link:(link)
+
+Want to fix something?
+
+Submit a pull request link:(link)
+
+Legal stuff
+
+You agree to some terms when contributing ((link)
+

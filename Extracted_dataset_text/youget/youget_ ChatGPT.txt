@@ -1,0 +1,9 @@
+Reporting an Issue for You-Get
+Found a problem with You-Get?Here’s how you can report it effectively:
+1. Open a Pull Request: Head over to You-Get Pull Requests (link) and submit a new pull request (PR) with your fix.
+   
+2. Describe the Problem:In your PR, make sure to explain what issue you encountered in detail.
+
+3. Include a Commit with a Test:Your PR should have at least one commit that adds a unit test showing the problem. This helps us understand and fix the issue faster. Check out these examples of good commits: [#2675](link), [#2680](link), [#2685]((link).
+
+Note: If your PR doesn't meet these requirements, it might be closed without further notice. But don't worry, a well-prepared PR will stay open until we solve the issue.

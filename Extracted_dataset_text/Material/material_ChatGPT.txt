@@ -1,0 +1,81 @@
+Contributing to MUI
+
+Thanks for being awesome and deciding to contribute to MUI! Here's a simple guide to follow.
+
+Code of Conduct
+
+We follow the Contributor Covenant (link). Please read our Code of Conduct (link)to keep our community positive and respectful.
+
+Ways to Contribute
+
+There are many ways to help out. Beyond code contributions, improving documentation or answering questions are equally important. Learn more about different ways to contribute (link).
+
+Your First Pull Request
+
+New to Open Source? Watch this series to learn how to make your first contribution: How to Contribute to an Open Source Project on GitHub(link)
+
+Start with issues labeled "good first issue" (link) or "good to take" (link).
+
+Making a Pull Request
+
+1. Fork and clone the repository:
+ 	git clone https://github.com/<your-username>/material-ui.git
+   cd material-ui
+   git remote add upstream https://github.com/mui/material-ui.git
+   
+2. Sync your master branch:
+  
+   git checkout master
+   git pull upstream master
+  
+
+3. Install dependencies (Yarn only):
+   
+   yarn install
+
+
+4. Create a branch for your changes:
+ 
+   git checkout -b my-topic-branch
+   
+
+5. Make changes, commit, and push to your fork:
+ 
+   git push -u origin HEAD
+
+
+6. Open a Pull Request on (link).
+
+Trying Your Changes on the Docs Site
+
+1. Start the local development server:
+  
+   yarn start
+
+   
+2. Access the docs locally at (link).
+
+Tips for Getting Your Pull Request Accepted
+
+ Make small, focused Pull Requests.
+Follow the Continuous Integration (CI) guidelines. CI automatically checks your Pull Requests. If a check fails, fix the issues.
+Keep your code formatted (`yarn prettier`) and linted (`yarn lint`).
+Update TypeScript declarations if needed and make sure tests pass (`yarn typescript`).
+
+Testing Your Changes
+
+Write unit tests for new features or bug fixes.
+Make sure to run the full test suite to ensure your changes don't break anything.
+
+Documentation and Demos
+
+Update the API documentation if you change props or add new components.
+Add or update demos in the documentation to showcase new features or components.
+
+How to Use Unreleased Changes
+
+Use Codesandbox CI to test unreleased changes by finding the CI build link in the Pull Request details.
+
+License
+
+By contributing, you agree to license your contributions under the MIT license (link)

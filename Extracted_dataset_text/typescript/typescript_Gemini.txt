@@ -1,0 +1,61 @@
+Contributing to TypeScript, focusing on logging issues and contributing code:
+Logging Issues
+Before reporting a bug: Read the FAQ (link) to avoid duplicates.
+ Search existing issues (link).
+When reporting a bug:
+Include your TypeScript version (run `tsc --v`).
+Provide a way to reproduce the bug (ideally with code).
+Describe the expected behavior and the actual behavior.
+Try the latest TypeScript version ( `npm install typescript@next`) to see if the bug is fixed.
+Contributing Code
+What you'll need:
+A GitHub account (link)
+A copy of the TypeScript code (see next steps)
+Node.js (link)
+An editor VS Code recommended: (link)
+Gulp command line tool for building and testing
+
+Getting Started:
+1. Install Node.js.
+2. Open a terminal.
+3. Fork TypeScript on GitHub, then clone it to your computer.
+  Add `--depth=1` to the clone command to save time.
+4. Install Gulp: `npm install -g gulp-cli`
+5. Change to the TypeScript folder: `cd TypeScript`
+6. Install dependencies: `npm ci`
+7. Verify everything builds and tests pass: `gulp runtests-parallel`
+8. Open the TypeScript folder in your editor.
+
+Tips:
+ Use a development container (link) for a quick development environment.
+Clone TypeScript without full history using `git clone --depth=1`.
+
+Contributing Bug Fixes:
+
+Find an approved bug in the issue tracker labeled "help wanted" or in "Backlog".
+Include a link to the bug in your pull request.
+
+Contributing Features:
+
+Get approval for your feature idea first labeled "help wanted" or in "Backlog".
+Features with language design impact or addressed by external tools won't be accepted.
+
+Legal: You'll need to complete a Contributor License Agreement (CLA).
+
+Housekeeping:
+Include a description of your change in the pull request.
+Base your changes on a recent commit in the main branch.
+Include adequate tests at least one that fails without your code changes.
+Follow the coding guidelines (link).
+Set git configuration to avoid line ending issues.
+
+Running the Tests:
+Run all tests: `gulp runtests-parallel`
+Run specific tests: `gulp runtests --tests=<regex>` (e.g., `gulp runtests --tests=compiler` for compiler baseline tests).
+Adding a Test:
+Add a `.ts` file in `tests/cases/compiler` showing the fix or new feature works.
+Use metadata tags (`// @metaDataName: value`) to configure tests.
+Remember:
+Follow these instructions to ensure a smooth contribution process.
+Search for existing issues and discussions before creating new ones.
+Provide clear descriptions and examples when reporting bugs or suggesting features.

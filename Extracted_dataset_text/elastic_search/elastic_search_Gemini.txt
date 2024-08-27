@@ -1,0 +1,108 @@
+Here's a simplified version of the text about contributing to Elasticsearch:
+
+How to Contribute
+
+Elasticsearch welcomes contributions from the community! There are many ways to help, including:
+
+Writing tutorials or blog posts
+Improving the documentation
+Reporting bugs
+Suggesting new features
+Writing code
+
+Reporting Bugs
+
+Make sure you're testing against the latest version of Elasticsearch.
+Search for similar issues on GitHub before reporting a new one.
+If possible, provide a small test case that reproduces the bug.
+Include as much detail as possible about the problem.
+
+Suggesting Features
+
+Describe the feature you'd like to see and why it's useful.
+Explain how you think it should work.
+Search for existing issues on GitHub that discuss similar features.
+
+Contributing Code
+
+Discuss your idea on GitHub first. 
+Follow the coding guidelines (see below).
+Submit a pull request with your changes.
+
+Coding Guidelines
+
+Use clear and concise variable and method names.
+Write Javadoc comments for new code.
+Follow formatting guidelines (e.g., 4-space indentation, 140-character line width).
+Make sure your code compiles and passes tests.
+
+Getting Started
+
+You'll need Java 17 and Git installed.
+ Fork the Elasticsearch repository on GitHub.
+Follow the instructions for building and testing the code.
+
+## Building Elasticsearch: A Simpler Guide
+
+This guide explains how to build and test changes to Elasticsearch code. 
+
+Before you start:
+
+Make sure you have Java 17 and Git installed on your computer.
+
+Building the code:**
+
+1. Navigate to the root directory of the Elasticsearch project:
+ 
+   cd elasticsearch/
+ 
+2. Building a specific distribution:
+	For a macOS tar archive, run:
+   	./gradlew -p distribution/archives/darwin-tar assemble
+  	You'll find the archive under:
+    	./distribution/archives/darwin-tar/build/distributions/
+    
+ To build all distributions (plugins, Javadocs, etc.), run:
+  ./gradlew assemble
+  
+    Note:This requires Docker to be installed.
+
+The built package distributions (Debian, RPM) and archive distributions (tar, zip) can be found in their respective directories under: distribution/archives/(...) OR distribution/packages/(...)
+
+
+Running the tests:
+
+Before submitting your code changes, run the entire test suite to check everything works as expected:
+
+   ./gradlew check
+
+If your changes only affect the documentation, run:
+
+   ./gradlew -p docs check
+
+
+Project layout:
+
+The project is organized into folders. Here's a quick overview of the important ones:
+
+docs: Contains all project documentation.
+distribution:** Builds the different distributions (packages, archives) of Elasticsearch.
+libs: Internal libraries used by other parts of the project (not for general use).
+modules: Features included with Elasticsearch by default, but separate from the main server.
+plugins: Officially supported plugins that add extra features to Elasticsearch.
+qa: Contains various tests for Elasticsearch, including tests that require multiple modules or plugins.
+server: The core server component of Elasticsearch. 
+test: Contains the test framework and test fixtures used to test all parts of Elasticsearch.
+x-pack: Commercially licensed code that integrates with Elasticsearch.
+
+Contributing your code:
+
+Elasticsearch welcomes contributions! Before submitting your code, please discuss your changes in a GitHub issue first. This helps avoid duplicate efforts and ensures your contribution aligns with the project's needs.
+Remember:
+
+Follow the coding guidelines provided by the project.
+Include tests that verify your code changes work correctly.
+Respond to any review comments promptly.
+
+We appreciate your interest in contributing to Elasticsearch!
+

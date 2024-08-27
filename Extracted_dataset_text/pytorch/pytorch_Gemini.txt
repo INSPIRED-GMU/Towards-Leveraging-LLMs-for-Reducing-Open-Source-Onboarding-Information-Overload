@@ -1,0 +1,116 @@
+Contributing to PyTorch
+Welcome to PyTorch! Before you start coding, tell the team about your contribution:
+1. Propose a new feature and implement it: Discuss design and implementation on an issue (link).
+2. Fix a bug in an existing issue: Find your issue, comment that you'll work on it.
+Developing PyTorch
+Install PyTorch from source (link):
+1. Uninstall existing PyTorch:
+bash
+   pip uninstall torch
+
+   or
+bash
+   conda uninstall pytorch -y
+2. Clone PyTorch:
+bash
+   git clone (link)
+   cd PyTorch
+3. Update PyTorch (if you already have it):
+bash
+   git pull --rebase
+   git submodule sync --recursive
+   git submodule update --init --recursive --jobs 0
+4. Install PyTorch in develop mode:
+bash
+   python setup.py develop
+Tips and Debugging
+Install CMake (macOS/Linux):
+bash
+   brew install cmake
+Python >= 3.7 required.
+Skip CI for simple commits: Add `[skip ci]` to your commit message.
+Debugging `python setup.py develop`:
+   1. Run `printf '#include <stdio.h>\nint main() { printf("Hello World");}'|clang -x c -; ./	a.out` to check your CMake works.
+   2. Delete the build directory: `rm -rf build` from the PyTorch directory.
+   3. Clean the repo (careful, this removes untracked changes):
+     bash
+      git submodule deinit -f .
+      git clean -xdf
+      python setup.py clean
+      git submodule update --init --recursive --jobs 0
+      python setup.py develop
+  
+   4. Set environment variables:
+    bash
+      ENV_KEY1=ENV_VAL1[, ENV_KEY2=ENV_VAL2]* python setup.py develop
+
+ Windows contributors:(link)
+
+Nightly Checkout & Pull:
+Use `tools/nightly.py` for pure Python development:
+Checkout a new nightly branch:
+bash
+   ./tools/nightly.py checkout -b my-nightly-branch
+Reuse an existing conda environment:
+ bash
+   ./tools/nightly.py checkout -b my-nightly-branch -n my-env
+Pull nightly commits:
+  This will reinstall PyTorch dependencies and nightly binaries.
+Codebase Structure
+c10 (core library files):(link)
+aten (C++ tensor library for PyTorch)
+torch (the actual PyTorch library): (link)
+csrc (C++ files composing the PyTorch library)
+jit (compiler and frontend for TorchScript JIT frontend) autograd (implementation of reverse-mode automatic differentiation)
+ api (The PyTorch C++ frontend)
+test (Python unit tests for PyTorch Python frontend)
+caffe2 (The Caffe2 library): (link)
+Unit Testing
+Python Unit Testing:
+All test suites are in `test` folder and start with `test_`.
+Run the entire test suite:
+bash
+python test/run_test.py
+Run individual test suites:
+bash
+python test/FILENAME.py
+Narrow down tests:
+bash
+python test/test_jit.py TestJit.test_Sequential
+Install required libraries: `conda` or `pip`
+pytest (optional):
+bash
+pip install pytest
+Run tests containing a substring:
+bash
+pytest test/test_nn.py -k Loss -v
+Local Linting:
+Run linting steps:
+bash
+make lint -j 6  # run lint (using 6 parallel jobs)
+Lint only changed files:
+bash
+make quicklint -j 6
+GDB integration for PyTorch debugging:
+Using GDB with PyTorch:
+If you're debugging PyTorch with GDB, there's a script called `pytorch-gdb` that might be helpful. It adds PyTorch-specific commands you can use in the GDB prompt. For example, `torch-tensor-repr` shows a human-readable version of a tensor object.
+By default, GDB won't automatically load `pytorch-gdb`. To enable it, add a line to your `.gdbinit` file (usually located in your home directory):
+add-auto-load-safe-path /path/to/pytorch/.gdbinit
+C++ stack traces:
+Set the environment variable `TORCH_SHOW_CPP_STACKTRACES=1` to see C++ stack traces when an error occurs in Python.
+CUDA development tips
+Set `CUDA_DEVICE_DEBUG=1` to enable debugging symbols for CUDA device functions.
+`cuda-gdb` and `cuda-memcheck` are useful tools for debugging CUDA code.
+Some C++11/14 features are supported in device code, but may cause errors when using ROCm.
+Windows development tips
+Symbols need to be explicitly marked for export/import in header files.
+You may need to explicitly link against all libraries you use.
+Large files can cause compilation issues. Split them into separate files.
+Building PyTorch with ASAN
+ASAN (AddressSanitizer) is a tool that helps find memory errors in C++. Here are steps to use it with PyTorch:
+1. Install LLVM 8.
+2. Set up environment variables with paths to tools and PyTorch code.
+3. Run scripts to build PyTorch with ASAN enabled.
+Other notes:
+This document also covers how to run clang-tidy for code formatting and static analysis.
+It mentions Caffe2 integration with PyTorch and some CI (Continuous Integration) tips.

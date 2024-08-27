@@ -1,0 +1,38 @@
+Helping Out
+🎌 Languages you can help in: Czech, German, English, Spanish, French, Italian, Kurdish, Lithuanian, Dutch, Norwegian, Polish, Portuguese, Turkish, Greek, Arabic, Japanese, Traditional Chinese, Simplified Chinese, Korean.
+The original code in this repository was carefully transferred from paper to digital form, but mistakes like typos might have happened by accident. The code needs to be checked and corrected to match these printed copies:
+AGC printouts for Comanche
+AGC printouts for Luminary
+
+Helpful Tools
+GitHub can show the AGC assembly language properly. Sadly, your code editor might not do this, but you can get AGC language tools that help show the code better for these editors:
+Atom
+CodeBlocks
+Eclipse
+Kate
+ProgrammersNotepad
+Sublime Text 3
+TextPad
+Vim
+Visual Studio Code
+jEdit
+(Note: Some tools can format the code automatically.)
+
+How to Format the Code
+GitHub and the tools mentioned will help format your code right.
+Use tabs to indent.
+Make tabs 8 spaces wide.
+Remove extra spaces at the end of lines.
+
+What to Check
+Make sure the digital code matches the printed copies exactly, especially:
+Any differences between the digital code and what's in the printed copies.
+Comments in the code should be exactly the same as in the prints.
+
+Common Mistakes to Look For:
+Typing Errors: Sometimes, the original code writers made typing mistakes in comments, or these mistakes happened when the code was first turned digital. If the printed copies have "SPACECRAFT" but the digital version has "SPAECRAFT," it needs fixing to match the print.
+Spaces: The space between words in comments should be the same as in the prints. Usually, it's one space for new words, two spaces for new sentences, and three spaces for indenting. If the prints use different spacing, follow the prints.
+Line Breaks: The way lines break should match the prints. If a line starts with R0000, it should be the same in both. For lines not starting with R0000, there should be 1 or 2 empty lines between code sections, but not more. 
+
+Remember:
+Check your changes carefully to make sure they match the printed copies before suggesting any updates (making a PR).

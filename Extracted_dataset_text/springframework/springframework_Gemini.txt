@@ -1,0 +1,31 @@
+Contributing to the Spring Framework:
+
+Help Spring!
+
+Thanks for wanting to help!  Here's how:
+
+Got a question?
+
+Ask other Spring users on Stack Overflow (link). 
+Search for existing issues on GitHub (link).
+Found a bug? Report it!
+Make a simple example showing the bug.
+Write clear steps to show how to reproduce the bug.
+Report the bug on GitHub (link).
+
+Fix a bug? Great!
+
+Sign the agreement (link).
+Make your changes and submit a pull request on GitHub.
+Follow the coding guidelines so your code matches the rest of the project.
+
+Review other people's code!
+
+Help improve code by reviewing other people's pull requests. 
+
+Learn more:
+
+Build the Spring Framework from scratch (link).
+See the coding guidelines (link).
+
+We hope this makes contributing to Spring easier!

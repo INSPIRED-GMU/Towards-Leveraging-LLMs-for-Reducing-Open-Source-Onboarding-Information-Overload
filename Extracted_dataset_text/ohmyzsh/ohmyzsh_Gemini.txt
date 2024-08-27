@@ -1,0 +1,60 @@
+Contributing to Oh-My-Zsh:
+Before you start:
+Read this guide to help you contribute smoothly.
+Finding problems:
+Search for existing issues before creating a new one (link).
+Reporting problems:
+Search for existing issues first.
+If none found, follow the troubleshooting guide link: (link) to collect data.
+Create a new issue with as much detail as possible, including:
+How to reproduce the problem
+What should happen
+What actually happens
+Mention people who can help (e.g., plugin maintainers) with @username.
+
+Suggesting improvements:
+
+Search for existing issues first.
+If none found, create a new issue and mention people who can help (e.g., plugin maintainers) with @username.
+
+Fixing problems or adding features:
+
+Be familiar with GitHub pull requests link: (link) and forking  link:(link).
+Always create pull requests with a new branch based on the latest version.
+Mention fixed issues in the pull request description (e.g., "Fixes #XXXX").
+Search for existing pull requests before making your own.
+If found, try the solution and +1 the pull request if it works.
+If yours is better, add it with a reference to the other one for comparison.
+
+Adding themes (for now, hold off):
+
+Do not submit themes for now  (link).
+
+Adding plugins or other features:
+
+Search for existing pull requests before making your own.
+If found, try the solution and work with the author for a common solution.
+For big changes (e.g., new plugin), find testers to +1 your pull request.
+Mention people who can help (e.g., plugin maintainers) with @username in your message.
+
+Searching:
+
+Search GitHub before contributing to avoid duplicates (link).
+Check the FAQ to see if your contribution has been brought up before link: (link).
+
+Writing commit messages:
+Follow the Conventional Commits format link: (link).
+The format is type(scope)!: subject
+type: what kind of change (feat: new feature, fix: bug fix, etc.)
+  scope: area of code changed (if many areas or none, leave blank)
+!: for breaking changes
+  subject: short description of the change
+Examples:
+feat(git): add alias for "git commit"
+style(agnoster): fix inline declaration of arrays
+Use links (#issue) and formatted code (backticks) in the subject line.
+Keep the subject line short and clear.
+
+Want to help more?
+See the Volunteer page for instructions (link).
+

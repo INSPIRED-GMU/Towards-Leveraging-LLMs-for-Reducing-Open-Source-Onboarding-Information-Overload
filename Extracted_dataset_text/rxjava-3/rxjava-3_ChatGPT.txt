@@ -1,0 +1,24 @@
+ Contributing to RxJava 3.x
+Want to Add Your Code?
+Great! You can contribute through GitHub. Here's how:
+1. Make your own copy of the RxJava repository by forking it.
+2. Work on your changes and then send them back to us through a pull request. Aim to target the `3.x` branch with your changes.
+
+Writing Your Code
+Follow the Style: Make sure your code looks like the rest of RxJava. This helps everyone read and understand it faster.
+
+ Licensing Your Contribution
+License Agreement: By sending us your code, you're okay with it being under the Apache 2.0 license, which you can find here: APLv2 License (link).
+
+New Files: If you're adding new files, please start them with a header like this:
+
+java
+
+Copyright (c) 2016-present, RxJava Contributors.
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at (link) Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+This header mentions the license and makes it clear how the file can be used.
+
+That's it! Thanks for considering contributing to RxJava. Your help makes the project better for everyone.

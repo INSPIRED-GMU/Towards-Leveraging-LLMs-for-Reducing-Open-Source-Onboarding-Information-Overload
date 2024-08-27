@@ -1,0 +1,5 @@
+How to Contribute
+
+We encourage you to contribute to the TensorFlow Model Garden! For details on how to do this, please read our contribution guidelines (link).
+
+Important Note:** Only code owners have the permission to merge a pull request. Please reach out to the code owners of each model to have your pull request merged. You can find them here (link).

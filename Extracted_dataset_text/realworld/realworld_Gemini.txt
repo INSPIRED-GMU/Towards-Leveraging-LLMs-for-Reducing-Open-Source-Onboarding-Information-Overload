@@ -1,0 +1,45 @@
+contributing to RealWorld:
+How to Help RealWorld
+We want you to help make RealWorld even better! Here are some guidelines:
+Read our rules (link) to keep things friendly.
+
+Got a question?
+Ask in the discussions (link) instead of creating an issue.
+
+Thinking of a new feature for RealWorld?
+Discuss it first (link) to avoid duplicate work. 
+Small features can be submitted as a pull request right away. 
+Big features need an issue submitted first to discuss it.
+
+Found a bug?
+Report it as an issue (link) with details. 
+You can even fix it yourself and submit a pull request!
+
+Submitting things:
+ Before submitting anything, search for existing issues to avoid duplicates.
+Use the templates (link) when creating issues.
+Submitting a pull request (fixing something or adding something new):
+1. Check for existing pull requests that might be similar (link).
+2. Make sure there's an issue describing what you're fixing or adding.
+3. Copy the RealWorld code (link), make your changes in a new area of the code.
+4. Follow the steps to commit your changes (updating the code).
+5. Submit your changes as a pull request.
+
+If we ask you to change your pull request:
+Make the changes we ask for.
+Update your code and submit it again.
+
+After your pull request is merged:
+
+You can delete your extra code and update your local copy with the latest changes.
+
+How to write commit messages (updating code descriptions):
+There's a specific way to write descriptions for your code changes. 
+Keep the descriptions short and to the point (less than 100 characters).
+There are three parts to a description: 
+  Type of change (fix, feature, documentation)
+Area of the code affected 
+Short description of the change
+You can also use the descriptions to mention issues you're fixing.
+
+We hope this simplifies the information on how to contribute to RealWorld!

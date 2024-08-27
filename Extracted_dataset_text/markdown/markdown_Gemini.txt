@@ -1,0 +1,28 @@
+contributing to Markdown Here, focusing on code contributions and translations:
+
+Code Contributions
+Want to add code to Markdown Here? Here's what you need to do:
+
+1. Agree to the rules:Before you can submit your code changes (called a pull request), you'll need to agree to follow the project's rules. There are two versions, one for individuals and another for companies. You can find them on the project page on GitHub(link).
+2. Sign the agreement: When you submit your code changes, create a new file in the pull request. Name it like this: `/contributors/{your_github_username}.md`. In that file, write that you agree to the rules. There's an example you can copy from the project owner's agreement file (link).
+
+Translations
+
+Markdown Here supports many languages! If you'd like to help translate the extension, you can use a website called Crowdin (link). 
+Here's how:
+
+1. Visit the project page:Go to the Markdown Here project on Crowdin (link).
+2. Help translate:You can add new translations, fix existing ones, or even create translations for new languages.
+3. Let them know: If you make any changes or have questions, let the project owner know by posting on the discussion group (link)) or creating an issue on GitHub (link).
+
+Contributors List
+
+This list includes people who helped with code or translations:
+
+Code:
+    Emanuele D'Osualdo (added TeX math rendering)
+  Dustin Engstrom
+
+Translations (You can see their usernames on Crowdin):
+   lambdalice (Japanese translation)
+   Many other people in many languages! 

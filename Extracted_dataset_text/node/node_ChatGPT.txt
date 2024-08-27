@@ -1,0 +1,33 @@
+Contributing to Node.js
+Welcome! Contributing to Node.js is a rewarding way to give back to the community and help improve the Node.js project. Here’s a simplified guide to get you started.
+
+Code of Conduct
+We have a Code of Conduct (link) that all contributors need to follow.
+Read the full details here: Code of Conduct Details (link).
+
+Issues
+If you have a question, want to discuss something, or found a bug, here’s how to proceed:
+General Help**: Check out our guide on Asking for General Help(link).
+Non-Technical Discussions: For discussions on non-technical topics, see Discussing Non-Technical Topics(link).
+Bug Reports: Found a bug? Report it by following our Bug Report Guidelines(link).
+Triaging Bug Reports**: Want to help manage bug reports? Read how to triage them here(link).
+
+Pull Requests
+
+Ready to make changes or fix a bug? Here’s how to get started with pull requests:
+Setting Up Locally**: Set up your local environment using these instructions(link).
+Making Changes : Understand the process of making changes by reading The Process of Making Changes (link).
+Reviewing Pull Requests: Learn how to review others' pull requests here (link).
+Notes on Dependencies and More: For additional notes and guidelines on dependencies and other topics, check out these notes (link).
+
+Developer's Certificate of Origin 1.1
+
+By contributing, you agree to the Developer's Certificate of Origin 1.1, certifying that you have the right to submit your contributions under the open source license indicated in the file, among other conditions.
+
+Additional Notes
+Always search for existing issues (link) before starting work to avoid duplication.
+For pull requests, make sure to create a new branch, install dependencies, and follow the provided coding rules.
+Remember to include tests and keep your commits clear and concise.
+Make sure to push your branch and create a pull request against the `canary` branch of the repository.
+
+Thank you for contributing to Node.js! Your efforts help improve the project for everyone.

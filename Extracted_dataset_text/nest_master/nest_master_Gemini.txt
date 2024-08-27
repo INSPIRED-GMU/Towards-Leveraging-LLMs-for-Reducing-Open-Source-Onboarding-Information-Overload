@@ -1,0 +1,51 @@
+Contributing to NestJS:
+
+Got a question?
+
+Ask on Stack Overflow (link) instead of creating an issue on GitHub.
+You can also chat with others on Discord (link).
+
+Found a bug?
+
+Report it as an issue on GitHub (link).
+Even better, fix it and submit a pull request.
+
+Missing a feature?
+
+Request it as an issue on GitHub.
+Discuss major features first to avoid duplicate work.
+Small features can be submitted as a pull request directly.
+
+Submitting an issue
+Search for existing issues first (link).
+If you find a bug, provide a minimal example to reproduce it (like a snippet of code).
+
+Submitting a pull request (PR)
+
+1. Search for existing PRs related to your change (link).
+2. Fork the nestjs/nest repository (link).
+3. Create a new branch for your changes (e.g. `git checkout -b my-fix-branch master`).
+4. Include tests for your changes.
+5. Follow the coding rules (explained in the full guide).
+6. Run all NestJS tests and make sure they pass.
+7. Write a clear description for your changes in the commit message (use the format explained in the full guide).
+8. Push your branch to GitHub.
+9. Create a pull request from your branch to nestjs:master.
+
+After your pull request is merged
+
+You can safely delete your branch.
+Update your local copy with the latest changes.
+
+Development Setup
+
+You need Node.js version 8.9.0 or higher.
+Clone the repository and run `npm install` or `yarn install`.
+Run `sh scripts/prepare.sh` to set up the environment.
+
+Commonly used commands**
+
+`npm run build` to build all packages.
+`npm run test` to run all unit tests.
+`sh scripts/run-integration.sh` to run integration tests (requires Docker).
+`npm run lint` to check code for errors.

@@ -1,0 +1,7 @@
+Ready to improve Swift? Great!
+Before you send your changes, make sure:
+You have the right to share your code with Apple and others.
+Your code follows the Swift project guidelines (link).
+You've tested your changes to make sure they work well (link).
+
+Then, you can submit a pull request!

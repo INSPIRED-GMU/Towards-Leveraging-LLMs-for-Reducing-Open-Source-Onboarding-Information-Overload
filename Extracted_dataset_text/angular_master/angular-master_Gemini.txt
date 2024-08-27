@@ -1,0 +1,55 @@
+Contributing to Angular 
+
+Welcome! We'd love your help making Angular even better.  Here's how you can get involved.
+
+How to Be a Great Contributor:
+
+Follow the Code of Conduct:** Keep things friendly and respectful.
+Got a question?** Ask on Stack Overflow (tag: angular) instead of opening an issue. It's a better place for general questions because:
+     Many people can help!
+    Answers are public to benefit others.
+    Voting helps the best answers rise to the top.
+Found a bug? Report it with a minimal reproduction (reduced test case) in an issue on our GitHub repository.
+Want a new feature?
+Request it in a GitHub issue.  For major features, discuss it first to avoid duplicate work. 
+
+Submitting Issues and Pull Requests (PRs):
+
+Search first! Someone may have already reported your issue.
+Include a minimal reproduction** for bugs so we can fix them quickly.
+Use the new issue templates** when creating issues.
+PRs: Before submitting:
+   	 Search GitHub for existing PRs on the same topic.
+    Make sure an issue describes your fix or documents the feature.
+    Sign our Contributor License Agreement (CLA).
+    Fork the angular/angular repo.
+    Make your changes in a new branch.
+    Include appropriate tests and follow coding rules.
+    Run all Angular tests and ensure they pass.
+    Use clear commit messages following our conventions.
+
+After Your Pull Request is Merged**
+
+Reviewers may ask for changes. Make the updates, re-run tests, and push a fixup commit.
+You can then safely delete your branch.
+
+Code & Commit Message Guidelines**
+
+All changes must have tests.
+Public API methods need documentation.
+Follow Google's JavaScript Style Guide with a 100-character line wrap.
+We have specific rules for formatting commit messages for readability. 
+
+Signing the Contributor License Agreement (CLA)
+
+Everyone who contributes code must sign the CLA. It's a quick process!
+
+Additional Resources
+
+Code of Conduct: (Link)
+Stack Overflow: (Link)
+GitHub repository: (Link)
+Contributor License Agreement (CLA): (Link)
+Google's JavaScript Style Guide: (Link)
+
+We appreciate your contribution!

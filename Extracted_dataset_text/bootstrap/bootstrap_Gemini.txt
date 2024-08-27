@@ -1,0 +1,60 @@
+Helping Bootstrap
+
+Welcome! This guide will help you contribute to Bootstrap. Please read it carefully to make things smooth for everyone.
+Being Nice
+This guide helps developers respect each other's time. 
+Be polite when asking for help or submitting something.
+Using the Issue Tracker
+ 	Report bugs and request features here, but follow the rules:
+	No help requests - use Stack Overflow or chat instead.
+    	Stay on topic and be respectful.
+    	Don't use "+1" or "thumbsup" comments, use GitHub reactions.
+    	Issues with official themes should be emailed to [email address removed].
+
+Understanding Labels
+
+We use labels to organize issues. Here's what they mean:
+browser bug - a bug caused by the browser, not Bootstrap.
+ confirmed - a real bug in Bootstrap.
+ css, js - problems with Bootstrap's code.
+docs - improvements needed for the documentation.
+examples - issues with the example templates.
+feature - a request for a new feature.
+ and more... (see the project labels page for all of them)
+
+Bug Reports
+
+Make sure your problem isn't caused by your own code first.
+Search for existing issues before reporting a new one.
+Try to fix the problem yourself if you can. 
+If you report a bug, be detailed:
+What device and browser are you using?
+What steps cause the bug?
+Can you share code that shows the bug?
+
+New Features
+New features might require a new version of Bootstrap. 
+Make a good case for why your feature is important.
+
+Pull Requests
+
+Pull requests are a great way to contribute fixes or improvements.
+Keep your pull requests focused on one thing.
+Talk to the developers before working on a big pull request.
+Follow the coding guidelines (like using spaces instead of tabs).
+Don't change some specific files (Bootstrap will handle those).
+Make your changes in separate files for code and documentation.
+Follow the steps to submit a pull request.
+
+Code Guidelines
+There are some rules for writing code for Bootstrap (see the Code Guide).
+Consider color contrast for people with disabilities.
+Don't remove focus styles unless you replace them.
+ Use spaces instead of tabs in JavaScript.
+
+Checking Your Code
+ Run a test before submitting your code to make sure it follows the guidelines.
+
+License
+
+ By contributing code, you agree to a specific license.

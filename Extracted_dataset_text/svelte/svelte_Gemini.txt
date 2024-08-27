@@ -1,0 +1,18 @@
+ contributing to Svelte:
+
+Help Svelte!
+
+There are many ways to help make Svelte even better, even if you can't write code!
+
+Try Svelte! Did something go wrong? Report it! (link)
+Look at issues:** Can you help answer questions or suggest solutions? (link)
+Fix bugs:See a problem you can fix? Make a pull request! (link)
+Improve docs:See confusing docs? Edit them to make them better!  
+Suggest features:Want something new in Svelte? Ask for it!  
+
+More Help
+
+Chat with Svelte users: (link)
+Reporting bugs: (link)
+Sending pull requests: (link)
+

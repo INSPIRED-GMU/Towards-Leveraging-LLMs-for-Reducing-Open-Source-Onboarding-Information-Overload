@@ -1,0 +1,25 @@
+Contributing code to RxJava 3.x:
+Help RxJava!
+Want to add code to RxJava? Here's how:
+Make an account on GitHub (link) if you don't have one already.
+Find the RxJava code (link).
+Click "Fork" to copy their code to your account.
+Make your changes to the code.
+Send a "pull request" to ask the RxJava team to look at your changes.
+
+Keep the code clean and easy to read!**
+
+License
+
+By adding code, you agree to follow their license rules. You can find them here: (link)
+
+Adding a new file?
+
+Copy this license agreement to the top of your new file:
+
+Copyright (c) 2016-present, RxJava Contributors.
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+ (link)  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+either express or implied. See the License for the specific language governing permissions and limitations under the License.
+

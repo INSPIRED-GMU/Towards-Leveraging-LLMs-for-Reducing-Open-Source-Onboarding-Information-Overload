@@ -1,0 +1,15 @@
+Contributing to Flutter in a Snap
+
+Helping with Issues:
+
+Search before creating a new issue to avoid duplicates.
+If you find a bug, include code and a special code number (commit sha) if you have them.
+Read other issues and add comments or thumbs up/down.
+
+Sending Code Changes (Pull Requests):
+
+Submit your changes to the "master" branch.
+Combine your changes into 2 changes or less.
+Your code must pass all the tests (like on GitHub Actions).
+Add new tests for your code changes.
+If your code adds a new feature, update the README file to explain it.

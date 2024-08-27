@@ -1,0 +1,23 @@
+contributing to Rust:
+
+Help Rust!
+
+Welcome! Want to help make Rust better? Here's how:
+
+Get Started:
+Need help? Ask other Rust users in the #new members chat ((link).
+
+Learn How to Contribute:
+This guide will teach you how to contribute to Rust (link). It covers things like fixing bugs and adding features to the compiler and libraries.
+
+Stuck? Get Help:
+If you get stuck, there are many places to ask for help:
+Rust internals forum (link)
+Rust Zulip chat (link)
+Rust Discord chat (link)
+
+Reporting Bugs:
+Did the compiler give you an error message asking you to report a bug?
+Learn how to report bugs here (link).
+Then open a new issue here (link).
+

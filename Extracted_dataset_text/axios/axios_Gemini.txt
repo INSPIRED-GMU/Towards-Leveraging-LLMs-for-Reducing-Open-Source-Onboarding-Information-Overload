@@ -1,0 +1,52 @@
+
+Helping Axios
+
+We'd love your help to improve Axios! By helping, you agree to follow a few rules.
+
+Code Style
+
+Follow the guide for writing node code.
+
+Commit Messages
+
+Keep your messages short and to the point. 
+Start your message with a verb like "Fixing", "Adding", "Updating", or "Removing".
+
+Testing
+
+Make sure your changes don't break the tests. We won't accept changes that break the tests.
+
+Updating Docs
+
+If you change the code, update the instructions (docs) so they match.
+
+Working on Axios
+
+Here are some commands to help you work on Axios:
+
+`grunt test`: Run the tests to make sure everything works.
+`grunt build`: Prepare the code for sharing.
+`grunt watch:test`: Runs the tests whenever you make a change.
+`grunt watch:build`: Prepares the code for sharing whenever you make a change.
+
+Important:** Don't change the files in the "dist/" folder in your pull request. 
+
+Releasing a new version**
+
+Update a file called "CHANGELOG" to list the changes in the new version.
+Then run these commands (replace `<newversion>` with the new version number):
+
+```
+npm version <newversion> -m "Releasing %s"
+npm publish
+```
+
+Running the Examples
+
+You can run the examples to test Axios yourself:
+
+Run `npm run examples` to start the examples. This will open a web page where you can test Axios.
+
+OR
+
+Run `npm start` to start a testing environment. This can be run in your web browser or directly in your computer's terminal.

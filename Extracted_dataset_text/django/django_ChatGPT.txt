@@ -1,0 +1,13 @@
+Helping Out with Django
+Django is an open-source project and loves help from everyone. You can contribute in many ways like:
+Writing or improving code
+Improving the documentation
+Reporting bugs and helping review changes
+
+You can find detailed instructions on how to contribute in the repository under `docs/internals/contributing/`, or check out this link:
+(link)
+
+Important: For anything bigger than a small fix, you need to create a Trac ticket. If there's no ticket, your pull request might not get noticed and will be closed. This is because Django tracks bugs, requests for new features, and code changes using Trac. GitHub is great, but Trac helps the community stay organized.
+
+Be Nice!
+When you contribute, you're part of the Django community. Please be nice to everyone and follow our Code of Conduct to keep Django welcoming and respectful.

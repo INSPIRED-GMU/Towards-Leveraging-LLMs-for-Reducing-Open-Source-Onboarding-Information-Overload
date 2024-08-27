@@ -1,0 +1,70 @@
+Contributing to MUI 
+
+Welcome to MUI! This guide helps you get started with making MUI even better.
+
+Being a Great Contributor
+
+Follow the Contributor Covenant:(link) - be respectful!
+There are many ways to help, including improving documentation.
+
+Your First Pull Request
+
+ New to pull requests? This video helps: How to Contribute to an Open Source Project on GitHub: (link)
+Start with issues labeled "good first issue" (link to good first issues:  or "good to take" (link to good to take issues: (link).
+Check if someone is already working on an issue before claiming it.
+If nobody's working on it, leave a comment to avoid duplicates.
+
+Sending a Pull Request
+
+Small pull requests are best! One feature or bug fix per request.
+Fork the repository, clone it, and create a new topic branch.
+Install dependencies with `yarn` (not npm).
+Make changes, commit, and push to your fork. (git commands are provided in the full guide)
+Make a pull request on GitHub:(link)
+
+Testing on the Documentation Site
+
+The documentation site is built with MUI and shows component examples. It's a great place to test your changes!
+Run `yarn start` to start the development server.
+Access the site at http://localhost:3000/
+
+Increasing Your Pull Request's Chance of Success
+
+Continuous Integration (CI) checks your code automatically.
+Make sure your branch targets the `master` branch.
+New features should be compatible with the latest stable release.
+If adding a feature, explain why it's needed in the core library.
+Consider adding an example to the documentation for common use cases.
+Include tests for new features or modifications.
+Update TypeScript declarations if props or prop types changed.
+New components go in the `lab` directory link to lab directory:(link)
+Ensure your branch is up-to-date with `master`.
+The code must be formatted (`yarn prettier`) and linted (`yarn lint`).
+Type-safe code requires `yarn typescript` to pass.
+Update API docs (`yarn proptypes && yarn docs:api`) and demos (`yarn docs:typescript:formatted`) if affected.
+Follow the pull request title format: "[Component] Imperative commit message" Guide on writing good commit messages:(link)
+
+What to Do if You Miss a Step
+
+Don't worry! CI checks your code, and the maintainers can help.
+
+Fixing Checks
+
+The CI system provides details on failing checks. Here's what each check does:
+
+ci/codesandbox: Tests multiple CodeSandbox scenarios with your changes.
+ci/circleci: checkout: Checks dependencies and lockfile. Run `yarn` and `yarn deduplicate` to fix issues.
+ci/circleci: test_static: Checks code format and runs linting. The log explains how to fix issues.
+ci/circleci: test_unit-1: Runs unit tests. Use `yarn test:unit --grep ComponentName` to narrow the scope.
+ci/circleci: test_browser-1: Runs unit tests in multiple browsers. The log shows failing browsers.
+ci/circleci: test_regression-1: Renders tests and takes screenshots.
+ci/circleci: test_types: Typechecks the code. The log lists all issues.
+ci/circleci: test_bundle_size_monitor: Monitors bundle size.
+argos: Evaluates screenshots from tests. Click "Details" to see differences.
+deploy/netlify: Renders a preview of the docs with your changes.
+codecov/project: Monitors test coverage.
+
+Updating Component API Documentation
+
+The component API documentation is generated from TypeScript declarations.
+Update the documentation in corresponding `.d.ts` files (e.g., `packages/mui-material/src/

@@ -1,0 +1,53 @@
+Helping AngularJS
+We'd love your help to improve AngularJS! Here's how you can get involved:
+How to ask questions
+Instead of asking on GitHub, ask your questions on Stack Overflow (https://stackoverflow.com/questions/tagged/angularjs) because:
+Many people can help you there.
+Answers are public so others can benefit.
+The best answers get the most attention.
+We will close questions asking for general help and point you here.
+How to report bugs:
+If you find a bug, report it (create an issue) on GitHub. You can also fix it yourself and submit a pull request.
+How to request features:
+You can request new features by creating an issue on GitHub.
+Discuss bigger changes in an issue first.
+Small changes can be submitted as a pull request directly.
+How to improve the documentation:
+Let us know if you have ideas to improve the documentation by creating an issue.
+You can also fix typos or small mistakes yourself using the "Improve this doc" button.
+For bigger changes, let others know what you're working on first and test your changes before submitting a pull request.
+Submitting issues:
+Before creating a new issue, search to see if someone already asked the same question.
+If you find a bug that hasn't been reported before, create a new issue with details including:
+What the problem is
+Why it's a problem for you
+Which version of AngularJS you're using
+What browsers and operating systems are affected (if applicable)
+Steps to reproduce the bug (if applicable)
+Any related issues
+Ideas on how to fix the bug (if you have any)
+Submitting pull requests:
+Before submitting a pull request, search GitHub to see if someone else already submitted something similar.
+Create a new branch to work on your changes. You can do this with the following command:
+git checkout -b my-fix-branch master
+Include tests with your changes.
+Make sure all tests pass before submitting your pull request.
+Write a clear description for your changes following our guidelines.
+Commit your changes using a descriptive message. You can do this with the following command:
+git commit -a
+Submit your pull request to GitHub.
+Once you submit your pull request, a system will automatically check your code and test it.
+If there are any problems, you'll be notified.
+If we ask you to make changes, make the changes and update your pull request. You can do this with the following commands:
+git rebase master -i
+git push origin my-fix-branch -f
+That's it! Thank you for your contribution!
+After your pull request is merged
+You can delete your branch and update your local copy with the latest changes. Here are the commands to do that:
+git push origin --delete my-fix-branch
+git checkout master -f
+git branch -D my-fix-branch
+git pull --ff upstream master
+Signing an agreement
+When you submit a pull request, you'll be asked to sign an agreement. This is a quick process. ░
+

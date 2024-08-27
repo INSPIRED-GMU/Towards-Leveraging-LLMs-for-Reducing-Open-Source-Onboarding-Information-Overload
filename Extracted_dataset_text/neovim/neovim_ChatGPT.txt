@@ -1,0 +1,77 @@
+Contributing to Neovim
+
+Welcome to Neovim! Your contribution is valuable, and this guide aims to help you get involved in making Neovim better.
+
+Getting Started
+
+If you're unsure where to begin, here are some suggestions:
+Tackle a "complexity: low" issue: Complexity: Low Issues (link)
+Fix bugs highlighted by Clang, PVS, or Coverity.
+Help improve the documentation (link).
+Try merging a Vim patch. Recommended if you're familiar with Vim.
+Reporting Problems
+
+Found a bug? Here’s what to do:
+First, look at the FAQ (link) and existing issues. (link).
+Update Neovim to make sure the problem is still there.
+Try to reproduce the problem with `nvim --clean`.
+If you can, bisect your config or Neovim's source code to pinpoint the issue.
+For crashes, include a stacktrace.
+Use tools like ASAN/UBSAN for more detailed error reports.
+Don't forget to check `:edit $NVIM_LOG_FILE` and include `cmake --system-information` if it's a build issue.
+Developer Guidelines
+Check out `:help dev` for guidelines on working with Neovim's core.
+For UI development, see `:help dev-ui`.
+API client developers should look at `:help dev-api-client`.
+Installing `ninja` will speed up your builds:
+ 
+  sudo apt-get install ninja-build
+  make distclean
+  make
+
+
+Submitting Pull Requests (PRs)
+
+Create a draft PR to avoid duplicate efforts.
+Include test coverage for your changes.
+Avoid unrelated cosmetic changes.
+Feature branches are better than using the master branch.
+Use rebase for small PRs and merge workflow for larger ones.
+After addressing review comments, rebasing and force-pushing is okay.
+
+PR Stages
+
+Draft: While still working on your PR.
+Ready for review: Once you’ve finished and are ready for feedback.
+Commit Messages
+
+Follow conventional commits guidelines.
+Prefix the commit subject with a type (e.g., fix, feat).
+Use the imperative mood (e.g., "Fix bug" not "Fixed bug").
+
+Automated Builds (CI)
+
+Every PR must pass automated builds.
+CI builds with `-Werror`, so watch out for compiler warnings.
+Tests must pass. Run them locally if you can.
+ASan and other analyzers will check your code.
+
+Coding and Linting
+
+Run `make lint` to check your code style.
+Follow the coding style defined in Neovim's documentation.
+Building and Testing Your Changes**
+
+To enable Clang sanitizers, use:
+ 
+  rm -rf build && CMAKE_EXTRA_FLAGS="-DCMAKE_C_COMPILER=clang –DCLANG_ASAN_UBSAN=1" make
+
+Check logs or run with `VALGRIND=1 make test` for memory errors.
+
+Finding Work
+
+Check out the "good first issue" label for beginner-friendly tasks.
+If you want something more challenging, look for "good to take" issues.
+Feel free to discuss implementation details in the issues or reach out to core committers for advice.
+
+Remember, every little bit helps, and we appreciate your contribution to Neovim!

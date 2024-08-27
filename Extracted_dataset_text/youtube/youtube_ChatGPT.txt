@@ -1,0 +1,33 @@
+Reporting Issues and Contributing to youtube-dl
+Want to report a problem or suggest a feature for youtube-dl? 
+Here’s a quick guide to do it right.
+Reporting a Problem
+Use the -v Flag: When you encounter an issue, add `-v` to your command line to get detailed debug info. Copy all the output and paste it in your issue report using triple backticks  for formatting. 
+Here’s an example command: youtube-dl -v <your command>
+No Screenshots: Please paste the text output directly. Screenshots of text aren't helpful.
+Before Reporting:
+Check Your Issue Isn’t Already Reported:** Look through both open and closed issues. Maybe someone else has already reported it, or it’s already fixed!
+Use the Latest youtube-dl Version:Run `youtube-dl -U` to update and check if your issue persists with the latest version.
+Is It Really a youtube-dl Problem? Make sure your issue is related to youtube-dl, especially if you're using a different interface for it.
+Writing a Good Report:
+Details Matter:Explain what’s wrong, what you expected, and any steps to replicate the issue. The more info, the better.
+Isolate the Problem:Make sure the issue is really with youtube-dl. Try different networks or settings if you suspect an external problem might be interfering.
+
+Contributing Code or Fixes:
+Fork and Clone:Start by forking the repository and cloning your fork.
+git clone git@github.com:YOUR_GITHUB_USERNAME/youtube-dl.git
+Create a Branch: Make a new branch for your changes.
+git checkout -b <branch-name>
+Follow the Style: Keep lines under 80 characters when possible, don’t capture groups in regex you won’t use, and make your regex patterns flexible.
+Write Clean Commit Messages:Describe what you’ve changed or fixed.
+Run Tests:Make sure your changes pass all tests.
+python -m unittest discover
+Push and Open a Pull Request: Once you’re done, push your changes and create a pull request.
+Adding a New Site:
+Legal Content Only: youtube-dl does not support sites with copyrighted content without permission.
+Use the Template:There’s a simple template for new extractors. 
+Fill it out and add it to the `youtube_dl/extractor` directory.
+Coding Conventions:
+Be Future-Proof:Write code that’s tolerant of website changes. Provide fallbacks and use convenience functions from `youtube_dl/utils.py` for parsing and conversion.
+Keep It Readable: Avoid unnecessary variable extraction and long lines. Use lists for multiple fallback values.
+Thank you for helping improve youtube-dl!** Your contributions make a big difference.

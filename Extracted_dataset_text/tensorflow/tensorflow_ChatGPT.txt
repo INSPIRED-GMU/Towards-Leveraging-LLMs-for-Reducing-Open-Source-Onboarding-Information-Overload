@@ -1,0 +1,34 @@
+How to Help Out
+Before You Share Your Work:
+Make sure you've looked at the rules for contributing.
+Be familiar with the Code of Conduct.
+ Sign the Contributor License Agreement (CLA). This shows your changes follow our rules.
+Make sure your changes match our coding style and guidelines.
+ Run tests to check your work.
+Sharing Your Code:
+If you've got something to improve TensorFlow, we're excited to see it! Follow these steps:
+If you're the only person who owns the work, sign an individual CLA here:((link).
+If a company owns the work, sign a company CLA here: (link).
+Use this guide to send your work to us using pull requests (link).
+Finding Something to Work On:
+Start by looking at issues labeled "good first issue" here (link). If you find something interesting, comment that you're working on it to let others know.
+Making Sure Your Work Fits In Tests:
+Add tests for new features to show they work and to keep them working in the future.
+Bug fixes should include tests too, to prove they fix the issue.
+Licensing:
+Put the right license at the top of new files. Examples:
+C/C++: Example (link)
+ Python: Example (link)
+And so on for other languages like Java, Go, Bash, HTML, JavaScript/TypeScript.
+Coding Style:
+Follow the coding style guidelines for each language. For example:
+C++ changes should follow the Google C++ Style Guide (link).
+Python changes should match the Google Python Style Guide (link).
+Running Tests:
+You can run tests directly if you have the right tools installed, or use Docker images for a simpler setup.
+For detailed instructions, check here for CPU tests (link) and here for GPU tests (link).
+Testing Doc Changes:
+To test documentation changes, use `tf_doctest.py` with the file you changed. Install the latest `tf-nightly` to make sure you're testing the most recent changes.
+Debugging:
+ To debug C++ code, build TensorFlow with the `--config=dbg` option for debugging information. This helps when using debuggers like GDB.
+

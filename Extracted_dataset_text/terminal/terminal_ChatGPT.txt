@@ -1,0 +1,36 @@
+Guide for Contributing to Terminal
+
+Getting Started with Contributions:
+Open Development Workflow:
+The Windows Terminal team actively develops in the open on GitHub.
+We manage issues, proposals, and development openly.
+Our goal is transparency and involving the community in our process.
+
+Using the Repo Bot:
+We use a bot to automate issue management and workflows. Learn about our bot here (link).
+The bot helps us manage issues and PRs efficiently.
+Security Issues:
+For security issues, report them via the Microsoft Security Response Center (MSRC), not GitHub issues. See SECURITY.md (link) for more.
+
+Before Starting Work:
+Look for Existing Issues: Before starting, check if there's an existing issue or feature request. Search both open and closed issues (link).
+File a New Issue if Needed:If your issue or idea is new, file a new issue. This helps avoid duplicated efforts.
+
+Contributing Code:
+1.Fork the Repo: If you haven't already, fork the Terminal repo.
+2. Clone and Create a Branch:Clone your fork and create a new branch for your work.
+3. Start a Draft PR:Once you start working, create a draft PR so others can see and discuss your work.
+4. Build and Test:Make sure your changes work as expected. Follow the build instructions in the repo.
+5. Code Review:After marking your PR ready for review, the team will provide feedback. Be prepared for multiple rounds of review.
+6. Merge: Once your PR is approved, a team member will merge it into the main branch, and your PR will be automatically closed.
+Development Tips:
+Testing:Testing is crucial. Follow the repo's guidelines for testing your changes.
+Code Review:Your code will be reviewed with the same rigor as any code submitted to Windows itself. Be open to feedback.
+Special Scenarios:
+Spec Writing: Some features require a detailed spec. If asked, write a spec following the provided templates. Specs are managed similarly to code contributions.
+Help Wanted Issues:Look for issues labeled "Help Wanted" if you're looking for a place to start. These are areas where community contributions are especially welcome.
+
+Final Note:
+Thank you for considering contributing to Windows Terminal! Whether it's filing issues, proposing new features, or contributing code, every bit of help is appreciated. Ready to find your next task? Check out issues labeled "Help Wanted" (link).
+
+This guide aims to make contributing as clear and straightforward as possible. If you're looking to contribute, thank you in advance for your help! Let's make Terminal even better, together.

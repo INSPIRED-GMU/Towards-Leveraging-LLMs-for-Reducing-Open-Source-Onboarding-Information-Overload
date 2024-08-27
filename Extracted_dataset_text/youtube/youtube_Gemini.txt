@@ -1,0 +1,28 @@
+contributing to Youtube-dl involves following these guidelines:
+Reporting Issues:
+Include the complete output (`-v` flag) when reporting a bug.
+Search for existing issues before opening a new one.
+Clearly explain the problem, how to fix it if possible, and why existing options are insufficient.
+If the issue involves multiple problems, report them separately.
+Only report features you personally require.
+Make sure you're using Youtube-dl and not a UI for it.
+Contributing Code:
+Ensure the site distributes content legally.
+Follow these steps to add support for a new site called "yourextractor":
+1. Fork the repository and clone it locally.
+  2. Create a new branch for your extractor.
+  3. Start with a template and save it as `youtube_dl/extractor/yourextractor.py`. This file includes functions to extract video ID, title, description, etc. from the webpage.
+  4. Add an import for your extractor in `youtube_dl/extractor/extractors.py`.
+  5. Run tests to validate your code.
+  6. Refer to `youtube_dl/extractor/common.py` for helper methods and expected information in 	the information dictionary.
+  7. Ensure your code follows Youtube-dl coding conventions (flake8).
+  8. Make sure your code works under all supported Python versions.
+  9. Commit and push your changes.
+  10. Create a pull request for your changes to be reviewed and merged.
+Coding Conventions:
+Extractors are sensitive to website layout changes, so prioritize code that minimizes layout dependency and anticipates future changes.
+Information dictionaries should include mandatory fields like `id` (media identifier), `title` (media title), and `url` (media download URL). 
+Provide fallback options when extracting optional metadata from multiple sources. 
+Use regular expressions thoughtfully: avoid capturing unnecessary groups, make them flexible, and keep them under 80 characters per line.
+Extract numeric data using convenience functions from `youtube_dl/utils.py`.
+These are the core guidelines for contributing to Youtube-dl! Remember, clear communication, well-structured code, and adherence to conventions are key to a successful contribution.

@@ -1,0 +1,12 @@
+Helping Out
+If You Find a Problem:
+Before you report a new problem, please use the search to make sure it hasn’t been reported already.
+If you’re reporting a bug, please include the source code and the specific commit (commit sha) where you found the bug.
+Look at the problems others have reported. You can give more information on these problems or just show your support for fixing them.
+
+If You’re Adding Changes:
+When you want to add something new, make your changes in the main part of the project (master).
+Your changes should be in no more than two updates (commits). If there are more, you need to combine them (squash them).
+Make sure your changes don’t break anything by passing all the checks in systems like GitHub Actions.
+Include or update tests to make sure your changes work well.
+If you’re adding a new feature, please explain it in the README so everyone knows how it works.

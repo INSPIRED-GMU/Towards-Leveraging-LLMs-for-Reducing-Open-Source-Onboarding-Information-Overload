@@ -1,0 +1,22 @@
+Helping Animate.css
+Thanks for wanting to help make Animate.css even better! Before you get started, take a look at these guidelines. It's important to keep Animate.css high quality because many people use it.
+Animation Ideas
+Animations can be tricky because everyone has different tastes. These guidelines will help you suggest good animations for Animate.css:
+Keep it simple: Don't make animations move too far or last too long (more than 1 second).
+Don't be annoying: People shouldn't get tired of seeing the animations.
+Don't mess with the page: Animations shouldn't make it harder to use the page (like hiding buttons).
+Help people: Animations should make it easier for people to understand the page.
+Fit in: Animations should feel like they belong with the other animations in Animate.css
+Look natural: Animations should move like things do in real life (avoid jerky movements).
+Code Stuff
+Names for animations should be short words put together (like bounceIn).
+Use two spaces to indent each line.
+Leave a blank line at the end of each file.
+Set up your code editor so it automatically formats the code correctly.
+How to Help
+1.	Make a copy of Animate.css for yourself.
+2.	Create a new part on your copy for your changes.
+3.	Put your changes on your copy online.
+4.	Make an example of what your change will look like.
+5.	Ask to add your changes to the main Animate.css by creating a Pull Request with a clear title and description.
+

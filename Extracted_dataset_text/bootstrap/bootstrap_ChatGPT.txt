@@ -1,0 +1,83 @@
+Helping with Bootstrap
+Want to help improve Bootstrap? Here’s what you need to know.
+Before You Start
+Please read this guide carefully to make helping out as straightforward as possible for everyone. Following these guidelines shows respect for the time of the developers working on this project. They, in turn, will show respect for your input by considering your issues and suggestions.
+Using the Issue Tracker
+The issue tracker is for bug reports, feature requests, and pull requests. Please respect these rules:
+For personal support questions, use Stack Overflow (bootstrap-5 tag), Slack, or IRC instead of the issue tracker.
+ Keep discussions on topic and be respectful of others' opinions.
+ Don’t just comment “+1” or “:thumbsup:”. Use GitHub's reactions feature instead. Off-topic comments may be deleted.
+Don’t open issues for questions or feedback about official themes from (link). 
+Email them to themes AT getbootstrap DOT com.
+
+Issues and Labels
+We use labels in our issue tracker to help organize and identify issues:
+browser bug, Browser-specific issues.
+confirmed, Confirmed issues with Bootstrap.
+css, Issues with our CSS or Sass files.
+docs, Documentation improvements or updates.
+examples, Issues with the example templates.
+feature,Requests for new features or enhancements.
+build, Build system issues.
+help wanted, Issues where community help is welcomed.
+js,JavaScript file issues.
+meta, Project or repository-related issues.
+
+For more on our labels, see the project labels page.
+
+Reporting Bugs:
+A good bug report is detailed but concise. Here’s how to write one:
+Check if the issue has already been reported or fixed.
+Isolate the problem. Create a reduced test case and a live example if possible.
+Include detailed information: What steps will reproduce the issue? What browser and OS are affected? What would you expect to happen?
+
+Example Bug Report:
+Concise title
+Summary of the issue and environment
+Steps to reproduce
+Link to reduced test case
+Additional relevant information
+
+Reporting Browser Bugs
+Sometimes, what seems like a Bootstrap bug is actually a browser issue. Here's how to report these to browser vendors:
+Mozilla Firefox: Use Mozilla's bug tracker (link).
+Apple Safari: Use WebKit's bug tracker (link).
+Google Chrome, Opera: Use Chromium's bug tracker (link).
+Microsoft Edge: Use the "Help > Send Feedback" feature.
+
+Feature Requests
+We welcome feature requests. Think about whether your idea fits with the project's goals. Provide as much detail and context as possible.
+
+Pull Requests
+Pull requests are great for patches, improvements, or new features. Keep them focused, and don’t include unrelated changes.
+Discuss significant changes before starting work.
+Follow the coding guidelines and other requirements.
+Don’t edit `bootstrap.css` or `bootstrap.js` directly. 
+Edit source files instead.
+When contributing to documentation, edit source files in `/bootstrap/site/content/docs/`.
+
+Process for Contributing
+1. Fork and clone the repo.
+2. Configure the remotes.
+3. Update your fork with the latest upstream changes.
+4. Create a new branch for your changes.
+5. Commit your changes. Follow commit message guidelines.
+6. Merge or rebase upstream changes into your branch.
+7. Push your branch to your fork.
+8. Open a Pull Request.
+
+Contributing Code or Documentation
+By contributing, you agree to license your code under the MIT License and documentation under the Creative Commons Attribution 3.0 Unported License.
+Before v3.1.0, Bootstrap was released under the Apache License v2.0.
+
+Code Guidelines
+Follow the HTML and CSS Code Guide.
+Use CDNs and HTTPS for third-party JavaScript. Don’t use protocol-relative URLs.
+Promote accessibility by using WAI-ARIA attributes in documentation examples.
+Adhere to JavaScript standards: no semicolons, use 2 spaces for indentation, use strict mode.
+
+Before Committing
+Run `npm run test` to check your changes against our coding standards.
+
+License 
+Your contributions will be licensed under the MIT License for code or Creative Commons Attribution 3.0 Unported License for documentation.

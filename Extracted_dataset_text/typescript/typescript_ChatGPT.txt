@@ -1,0 +1,69 @@
+How to Report Issues with TypeScript
+Before Reporting an Issue:
+1. Read the FAQ: Check the FAQ (link) first. If your question is answered there, we won’t elaborate further on the issue.
+2. Look for Similar Issues: Check existing issues (link) before you report a new one. Remember:
+   Don’t just look at open issues. Your issue might have been reported and closed already.
+   Use different words that mean the same thing to widen your search.
+   Search for the issue title you're about to report.
+   Dig deeper than the first page of results.
+   If your program crashes, look for function names in the error call stack.
+
+Have a Question?
+Use Other Platforms:** For questions, try Stack Overflow, Gitter, or other resources. We can’t answer questions in the issue tracker due to high volume.
+Found a Bug?
+When reporting a bug, include:
+Your TypeScript version (`tsc --v`).
+A simple way to reproduce the issue.
+What you expected to happen vs. what actually happened.
+
+Try the latest nightly build (`npm install typescript@next`) to see if the bug is already fixed.
+Have a Suggestion?
+We take suggestions, too! First, check the FAQ and existing issues. Suggestions should include:
+The problem you’re solving.
+Suggested solution.
+How it works in various scenarios.
+Code examples.
+
+Legal Stuff
+You’ll need to sign a Contributor License Agreement (CLA) to contribute.
+Contributing Code: Getting Started
+What You Need:
+An issue or feature you're interested in.
+A GitHub account.
+The TypeScript code. Follow below steps for this.
+Node.js from [nodejs.org](https://nodejs.org/).
+VS Code or any editor you prefer.
+The gulp command line tool (`npm install -g gulp-cli`).
+
+Steps to Contribute:
+1. Install Node.js: Download from (https://nodejs.org/).
+2. Fork TypeScript: Make your own copy on GitHub, then clone it to your computer. Here’s how . 
+Use `--depth=1` with `git clone` to speed it up.
+3. Install Gulp: Run `npm install -g gulp-cli`.
+4. Go to TypeScript Folder: Use `cd TypeScript`.
+5. Install Dependencies: Run `npm ci`.
+6. Build and Test: Run `gulp runtests-parallel`.
+7. Start Coding: Open the folder in your editor and follow the directions to add/debug a test.
+
+Tips and Tricks:
+Use a Dev Container: For an isolated environment, use the development container included in the repo with VS Code.
+Faster Clones:Clone with `git clone --depth=1` to skip the repo's full history.
+Windows Users:You might need to enable long paths with `git config --global core.longpaths true`.
+Contributing Bug Fixes and Features:
+Bug Fixes:Look for issues labeled "help wanted" or in the "Backlog milestone". Link the issue you’re fixing in your pull request.
+Features:Must be approved by a project maintainer. Check if it's labeled "help wanted" or in the "Backlog" milestone.
+
+Testing Your Changes:
+Run Tests:Use `gulp runtests-parallel`. For specific tests, use `gulp runtests --tests=<regex>`.
+Debug Tests:Use `gulp runtests -i` or VS Code's debugger with the provided launch configuration.
+
+Adding a New Test:
+Add a `.ts` file in `tests\cases\compiler` with your code showing the fixed bug or new feature.
+Use metadata tags in your test file for additional settings.
+
+Managing Test Baselines:
+Tests generate "baselines" for output comparison. Use `git diff` or your preferred tool to check baseline changes.
+Accept correct changes with `gulp baseline-accept`.
+Localization:
+User-facing strings are in `diagnosticMessages.json`. After changes, run `gulp generate-diagnostics`.
+Follow the coding guidelines (link) for best practices and conventions.

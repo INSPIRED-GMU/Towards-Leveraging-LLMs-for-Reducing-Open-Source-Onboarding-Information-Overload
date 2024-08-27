@@ -1,0 +1,26 @@
+Contributing to Flutter
+Before you dive into contributing to Flutter:
+Join our Discord (link)for chat, and remember to be nice to everyone. See our code of conduct (link).
+You can join the Flutter team by helping out. With enough contributions, you might get more access and join the team officially. Check the Contributor Access page (link) for more info.
+
+Want to help with issues?
+Join the `#hackers-triage` on Discord.
+Always be respectful and professional, following our code of conduct (link).
+Start by reading how to help with triage on our Triage wiki (link). At first, you won't add labels but can still help a lot!
+Learn about issue labels and what they mean on our Issue Hygiene page (link).
+After a while, you'll likely get access to label issues yourself.
+
+Interested in coding?
+Check out issues labeled as good first contributions (link).
+
+You'll need to get familiar with Flutter's way of doing things. Start with our code of conduct(link),
+ then go through the docs in the following order for a smooth start:
+  1. Read about what we value (link).
+  2. Set up your engine development environment (link) if you plan to work on Flutter's engine (C++, Java, Objective-C). Skip if you're focusing on the framework (Dart).
+  3. Set up your framework development environment (link) for Dart development.
+  4. Learn about landing PRs, code reviews, breaking changes, and more (link).
+  5. Understand our issue process (link), including triaging and labels.
+  6. Dive into the style guide (link) for coding standards.
+  7. Use the Flutter design doc template (link) for proposing new ideas.
+  
+There's also a How to Contribute to Flutter (link) video, several useful pages on our Wiki (link), and a Medium article, Contributing to Flutter: Getting Started(link), that might help you get going.

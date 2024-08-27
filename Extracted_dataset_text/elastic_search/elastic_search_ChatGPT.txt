@@ -1,0 +1,55 @@
+Contributing to Elasticsearch
+Elasticsearch is a project anyone can help with. You can write guides, improve the help documents, tell us about bugs, or even add new features.
+If you help out, you might get prizes and be recognized for your work through the Elastic Contributor Program.
+Bug Reports
+If you find a mistake in Elasticsearch, check first if it's been fixed in the newest version. If it's still there, look on GitHub to see if someone else has reported it. It's helpful if you can show us how to see the mistake ourselves by giving a simple example. Use curl commands to demonstrate, like this:
+# To remove an index
+curl -XDELETE localhost:9200/test
+# To add a document
+curl -XPUT localhost:9200/test/test/1 -d '{
+"title": "test document"
+}'
+# This should give back XXXX but gives back YYY instead
+curl ....
+
+Let us know as much as you can, especially if the problem might come from how the data is set up. The more we understand, the faster we can fix it.
+Feature Requests
+If you're missing a feature in Elasticsearch, you're probably not alone. We add new features when our users suggest good ideas. Tell us what you need on GitHub, explaining why it's important and how it should work.
+Code and Documentation
+Want to add something new or fix a bug? Talk about it on GitHub first. This helps us coordinate and avoid doing the same work twice. It also lets us help you make sure your idea fits well with Elasticsearch.
+We mark some GitHub issues as "help wanted" for tasks we think the community will enjoy. For newcomers, we use "good first issue."
+
+Here's how to start:
+
+1. Fork and Clone**: Make your own copy of Elasticsearch and download it.
+2. Make Changes**: Add tests, make sure your code matches our style, and don't change unrelated things.
+3. Send a Pull Request**: Once you're ready, send us your changes for review.
+
+Building Elasticsearch
+You'll need JDK 17 to build Elasticsearch. Set up your computer to recognize JAVA_HOME as your JDK installation. Although Elasticsearch uses JDK 11 too, you can build with JDK 17 and test with JDK 11 by setting RUNTIME_JAVA_HOME to your JDK 11 home.
+
+Elasticsearch builds with Gradle. You can run it using the `gradlew` script on Unix or `gradlew.bat` on Windows.
+
+IntelliJ IDEA users need version 2020.1 or newer. You might also need Docker for some parts of Elasticsearch.
+
+Running Elasticsearch from source:
+
+./gradlew :run
+
+After building, you can check Elasticsearch is working with:
+
+curl -u elastic:password localhost:9200
+
+
+Formatting and Checks
+We use tools to keep code formatted and check for problems. Make sure your changes pass these checks before submitting:
+
+1.Code Style: Follow our style guide. Use the provided settings in IntelliJ IDEA for consistency.
+2. License Headers: New files should have the correct license headers.
+3. Tests: Add unit and integration tests as needed. Ensure they pass by running `./gradlew check`.
+
+Finally, discussions before code changes can save time. If your pull request is not accepted, it might be for several reasons, like duplicating work, not fitting with Elasticsearch's direction, or not being high quality. Always feel free to ask for feedback or clarification.
+
+Contributions from classes are welcome, but please don't make them mandatory for students. We can't rush review processes to meet class deadlines.
+
+Remember to run `./gradlew check` to ensure everything is in order before submitting non-documentation contributions.

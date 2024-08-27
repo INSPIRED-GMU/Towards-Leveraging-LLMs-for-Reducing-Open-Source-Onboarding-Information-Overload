@@ -1,0 +1,69 @@
+Helping Create React App
+
+Welcome! This guide will help you contribute to Create React App. Please read it carefully to make things smooth for everyone.
+
+Our Goals
+
+We want to make it easy for people to get started with React.
+We avoid complex setups and flags whenever possible.
+We use conventions and automatic features instead of configuration.
+
+Examples
+
+We always use `src/index.js` as the entry file.
+We set the output file name automatically.
+We use port 3000 for development by default, but can adjust for cloud environments.
+
+Breaking the Rules
+
+Sometimes, we add flags or configuration if it's really necessary. 
+For example, we allow setting a homepage for non-root apps.
+
+Submitting Improvements
+
+Pull requests (code changes) are great!
+Keep your changes focused on one thing.
+Ask the developers if someone is already working on your idea.
+Include a test plan to show your changes work.
+
+Code Structure
+
+Create React App uses separate packages for different parts. 
+These packages are located in the `packages/` directory.
+
+Setting Up a Local Copy
+
+You need Node.js and Yarn to work on the code locally.
+Clone the repo and run `npm install`.
+You can then modify files and run commands like `npm start`.
+
+Running Tests
+
+Use `npm run e2e:docker` to run all tests.
+
+Customizing Tests**
+
+You can change how tests connect to private packages.
+
+Tips for Windows Users
+
+Use Bash on Windows to run the scripts easily.
+Install Node.js and Yarn again using nvm.
+Set Git line endings to LF to avoid errors.
+
+Releasing a New Version**
+
+1. Tag merged pull requests with the right labels.
+2. Close the current release milestone and create a new one.
+3. Update the version number for `react-scripts` (usually the only package that needs updating).
+4. Be very careful when changing files in `packages/create-react-app`.
+5. Update the changelog with all the changes and authors.
+6. Publish the changes.
+7. Create a release on GitHub with the changelog text.
+
+Releasing the Documentation
+
+1. Go to the `docusaurus/website` directory.
+2. Run commands to build and deploy the documentation.
+
+We hope this helps! Thanks for reading!

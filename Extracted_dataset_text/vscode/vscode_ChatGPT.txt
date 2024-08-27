@@ -1,0 +1,41 @@
+Helping Out with VS Code
+Welcome! We're thrilled you're interested in helping with VS Code. There's more to contributing than just coding. Here's how you can get involved in different ways.
+
+Asking Questions
+Got a question? Post it on Stack Overflow (link) with the tag `vscode` instead of opening an issue here.
+
+Giving Feedback
+We welcome your thoughts and feedback! Check out our Feedback Channels (link) for where and how to let us know what you think.
+
+Reporting Issues
+Find the Right Spot: VS Code is big and spread out over many repos. Make sure you report your issue in the right place. If you're not sure, start here (link).
+Check First: Look through current issues (link) to avoid duplicates. Also, look at the most popular feature requests (link).
+React, Don't "+1":Found something that matches your issue? Use the 👍 reaction to vote it up instead of adding a "+1" comment.
+
+Writing Good Reports
+Keep it One Issue Per Report: Stick to one problem or request per report.
+Be Detailed: More details help us fix issues faster. Use the issue reporting tool in VS Code (from the Help menu) for a head start. Include:
+ Your VS Code version and OS
+ Extensions you're using
+Steps to recreate the issue
+What you expected vs. what happened
+Screenshots or videos if possible
+A code snippet or repo link (code in images or gifs doesn't count)
+Any errors from the Developer Tools Console (Help > Toggle Developer Tools)
+
+Creating Pull Requests
+Making Changes:Ready to fix something? Check out our pull requests guide (link).
+
+Final Checklist
+Before you submit, make sure to:
+Search to ensure it's a new report
+Try to recreate the issue with no extensions active
+Keep your example code simple to help isolate the problem
+
+Follow Your Issue
+Once you've submitted, we have a workflow (link) to manage issues. Our bots help out but might close issues if they're inactive or need more info, so keep an eye on your notifications.
+
+Contributing Code
+Ready to Code?If you're up for writing code, our How to Contribute (link) page is your next stop.
+
+Thank You! Every contribution matters, big or small. We appreciate you taking the time to help improve VS Code.

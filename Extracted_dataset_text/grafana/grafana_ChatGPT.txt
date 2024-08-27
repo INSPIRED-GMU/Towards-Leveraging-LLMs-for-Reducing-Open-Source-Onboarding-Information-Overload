@@ -1,0 +1,35 @@
+Helping Out with Grafana
+Thanks for wanting to help with Grafana! Everyone is welcome to contribute in positive ways. To keep things friendly and respectful, please follow our Code of Conduct (link).
+Ways to Contribute
+Coding: Add to Grafana's code.
+Bugs: Find and report issues.
+Community Tools: Create plugins and dashboards.
+Writing: Write docs or blog posts.
+Organizing: Set up local meetups or user groups.
+Helping: Answer Grafana questions.
+For more ideas, check out (link).
+Reporting Bugs
+Check First: See if the issue is already reported ((link).
+Report: Submit a detailed bug report (link).
+For data visualization or dashboard issues, include query results, panel settings, or dashboard JSON. For authentication and alerting, server logs can help.
+Security Issues:
+Found a security problem? Read our policy and let us know privately ((link).
+Suggesting Enhancements:
+Got an idea? Suggest it here (link).
+To help with accessibility, report here (link).
+Writing Docs:
+Want to write or edit docs? Start here (link).
+Triage Issues:
+You can also help by organizing issues. Learn how (link).
+Answering Questions:
+Help others in the community by answering questions ((link).
+First Contribution:
+New? Look for beginner-friendly issues(link) or help-wanted tasks (link).
+Before Your First Pull Request
+CLA: You need to sign the CLA (link).
+What's Next?
+Develop: Set up your environment(link).
+Write Docs: Learn about contributing documentation ((link).
+Create Plugins: Start developing plugins (link).
+
+Explore more in the contribute folder (link).

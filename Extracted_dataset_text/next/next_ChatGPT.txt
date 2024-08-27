@@ -1,0 +1,53 @@
+Contributing to Next.js
+
+Welcome! We're excited to have you contribute to Next.js. Here's how to get started and make a difference.
+
+Getting Started
+
+Watch this video: A 40-minute guide on contributing to Next.js: Watch here: (link).
+Read about our open source commitment: Vercel Open Source (link).
+
+Contributing Steps
+Look for simple tasks**: Start with issues labeled "complexity: low" here=(link).
+Report bugs: If you find a bug, report it on our GitHub (link).
+Suggest features: Have an idea? Open an issue to suggest it. Start a discussion first for big ideas.
+
+Development Setup
+1. Fork and clone Next.js: Fork the repo and clone it to your machine.
+2. Create a new branch: `git checkout -b MY_BRANCH_NAME`.
+3. Install yarn: `npm install -g yarn`.
+4. Install dependencies: Run `yarn` in the project root.
+5. Start developing: Use `yarn dev` to see your changes in real-time.
+6. Keep types updated: Run `yarn types` in a new terminal if your types get outdated.
+
+Building
+Build the project: Use `yarn build` or `yarn prepublish` to build everything, including type definitions.
+Clean the project: If needed, use `yarn clean`.
+Testing
+Read the testing readme** for how to write tests.
+Run tests: Use `yarn testonly` for unit tests, `yarn testheadless` for headless mode, or specify a suite with `yarn testonly --testPathPattern "suite_name"`.
+
+Linting
+Check code formatting**: Use `yarn lint` to see issues.
+Fix formatting issues**: Run `yarn lint-fix` to auto-fix many issues.
+
+Running Example Apps
+Start an example app: Use `yarn next ./examples/app-name/`.
+Developing with Your Local Version
+Use local Next.js in another project: Point to your local Next.js in `package.json` like `"next": "file:/path/to/next.js/packages/next"`.
+
+Troubleshooting
+Fix SWC binary load failures**: Add `@next/swc-*` dependencies manually in `package.json` if you encounter errors.
+
+Adding Examples
+Add new examples to the `examples` directory.
+Include a README.md: Use the specified format, and ensure your example follows our guidelines (TypeScript preferred, use `next/image`, etc.).
+
+Publishing Canary Releases
+For maintainers: Use `yarn publish-canary` to publish a new version of all packages to npm.
+Notes
+Ask questions on Stack Overflow or Discord if you're stuck.
+Open a Draft PR** early to get feedback and avoid duplicate work.
+Follow coding and commit message guidelines** to make your contributions easier to review and integrate.
+
+Thanks for contributing to Next.js!Your efforts help make it better for everyone.

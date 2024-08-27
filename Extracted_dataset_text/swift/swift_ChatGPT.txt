@@ -1,0 +1,5 @@
+
+To contribute, make sure to use simple words and keep URLs, git commands, and code snippets intact. By sending a pull request, you agree that you're allowed to share your work with Apple and the community. Also, you agree that your work will be licensed under the Swift license (link).
+
+Before sending your pull request, ensure that you've tested your changes (link)and that they adhere to the Swift project's guidelines for contributing code (link).
+

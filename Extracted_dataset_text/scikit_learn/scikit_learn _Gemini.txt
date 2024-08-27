@@ -1,0 +1,19 @@
+Contributing to scikit-learn:
+
+Help scikit-learn!
+
+There are many ways to help make scikit-learn even better! Here are some ideas:
+
+Fix typos or improve docs: See a mistake in the instructions? Fix it! You can send an email or submit a request on GitHub (link). Docs live here: (link)
+Answer questions: Stuck on something? Maybe you can help others! Answer questions on GitHub (link).
+Report bugs:Find a problem? Report it on GitHub (link).
+Give feedback:See a good bug report? Give it a thumbs up on GitHub.
+Spread the word: Tell others about scikit-learn! Link to it or mention it in your work. 
+More Help
+Reporting bugs: (link)
+Writing code: (link)
+Code guidelines: (link)
+ Reading existing code: (link)
+
+We treat everyone with kindness and respect, just like the Python Software Foundation (link)
+

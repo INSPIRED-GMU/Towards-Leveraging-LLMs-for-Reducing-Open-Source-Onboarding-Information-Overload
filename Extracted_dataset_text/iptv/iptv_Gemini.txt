@@ -1,0 +1,45 @@
+Contribution Guide for IPTV Repo
+
+Adding or Fixing Streams:
+
+1. Check the Stream:
+    Use VLC player (link) to see if the link works.
+2. Check Country:
+    Use a VPN or (link) to see if it works outside your country.
+    Find the broadcast country using lyngsat.com (link) or wikipedia.org (link).
+3. Add the Stream:
+    If unknown country, add it to `channels/unsorted.m3u`.
+    Find the country code (ISO_3166-2) from (link).
+   Open the country file in `/streams` folder.
+   If broken stream, replace the link.
+   If new stream, add it at the end with description.
+4. Special Cases:**
+   Geo-blocked: Add "[Geo-blocked]" to channel name and list countries in `tvg-country` attribute.
+   Not 24/7: Add "[Not 24/7]" to channel name. 
+5. Make a Pull Request:
+    Commit all changes. 
+    Send a pull request.
+
+Updating Files:
+
+Follow steps 5. above for changes to README or this guide.
+
+Description Template:
+
+This is how you write the channel description:
+
+#EXTINF:-1 tvg-id="CHANNEL_ID",CHANNEL_NAME (RESOLUTION) [LABEL]
+STREAM_URL
+
+Replace the parts in brackets with actual info. You can find details about each part in the guide.
+
+Example Description:
+
+
+#EXTINF:-1 tvg-id="ExampleTV.ua",Example TV (720p) [Not 24/7]
+(link)
+
+
+Looking for More Info?
+
+This guide covers the basics. Refer to the full guide for advanced details.

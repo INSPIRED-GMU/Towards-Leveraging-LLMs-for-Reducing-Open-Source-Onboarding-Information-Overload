@@ -1,0 +1,44 @@
+Contributing to React Native:
+
+How to Help React Native
+
+Welcome! We appreciate your interest in contributing to React Native. There are many ways to help, even if you can't write code.
+
+New to open source?
+
+This website has info on how to contribute to open source projects: (link)
+
+Help with issues
+
+Answer questions and give info to people who report bugs (issues) on GitHub.
+You can find more details on this process here: (link)
+
+Review documentation updates
+
+Help improve the React Native instructions by checking for typos and grammar mistakes.
+You can edit the documentation directly on most web pages.
+
+Help write test plans**
+
+ Some code changes need instructions on how they were tested. You can help write these.
+
+Contributing code**
+
+If you're comfortable with code, you can fix bugs and add new features. This is done through pull requests on GitHub.
+Learn more about pull requests here: (link)
+Here's a step-by-step guide to making your first pull request: (link)
+
+Testing
+
+Tests help catch bugs before they become problems.
+You can learn more about running and writing tests here: (link)
+Other ways to help
+
+Share your React Native experience with others through blog posts, talks, or social media.
+
+Need help?
+
+The React Native team and community are happy to help! You can reach them on Twitter at @reactnative or @reactnativecomm.
+  @reactnative: (link)
+  @reactnativecomm: (link)
+If you're thinking about a big change, discuss it in the proposals repository first:(link)

@@ -1,0 +1,25 @@
+Helping with Rust
+Welcome!
+It's awesome that you're interested in helping out with Rust! We welcome all kinds of contributions.
+
+Getting Started
+Need Help? Join us on the [#new members stream on Zulip](link) if you're looking for guidance. It's a great spot to ask questions and get started.
+
+Learn About Contributing
+Main Guide: Check out the Guide to Rustc Development (link), also known as the rustc-dev-guide. It's not just about the Rust compiler but also covers contributing to the standard library and rustdoc.
+
+What’s in the rustc-dev-guide?
+The guide dives into how the Rust compiler works and guides new contributors on getting involved. It covers:
+Rust's bots and development tools
+How to bootstrap
+The architecture of the compiler
+How Rust's source code is organized
+And much more! It's suggested to read this guide to get a good foundation before starting your contribution journey.
+
+Stuck? Need Help?
+Rust has a supportive community across several platforms like Rust Internals (link), Zulip (link), and Discord (link). If you're stuck or have questions, these are great places to ask for help. The Zulip channel is especially recommended for support and finding mentors.
+
+Reporting Bugs
+Encountered a compiler error that suggests coming here? If you're looking to report a compiler bug, especially an Internal Compiler Error (ICE), head to the bug reports section (link) of the guide for instructions on how to file a report. You can then open an issue on GitHub (link) to report it.
+
+Thanks for considering contributing to Rust! Your efforts help make Rust better for everyone.

@@ -1,0 +1,25 @@
+Helping  Out with Animate.css
+Thanks for wanting to help with Animate.css! Please keep these simple rules in mind to make sure Animate.css stays useful and high-quality for everyone.
+Design Rules
+When creating animations, try to follow these simple ideas:
+Be Subtle:Keep animations small and short, ideally under 1 second.
+Be Tolerable: Make sure animations aren’t annoying, even if seen many times.
+Don't Mess Things Up: Animations shouldn’t make the website harder to use. They should be extra touches that don’t mess with the page's normal function.
+Be Helpful: Use animations to guide users, make reading easier, or show how things are connected.
+Fit In: Your animations should look like they belong with the others.
+Look Real: Try to make animations mimic real-life physics as much as possible.
+Writing Code
+Here are some tips on how to write your code:
+1. Name Things Right: Use camelCase and group names (like fades, bounces).
+2. Indent Properly: Use two spaces for indenting.
+3. Finish with Space: End files with a blank line.
+4. Auto-Format: Use an editor config plugin/extension in your editor to make sure your code looks right automatically.
+How to Make Your Contribution
+1. Start by Forking: Make your own copy of the project.
+2. Create a Branch: Make a new branch for your changes in your version.
+   git checkout -b myNewFeature
+3. Share Your Branch:** Upload your branch to your version of the project.
+   git push origin myNewFeature 
+4. Show a Demo: Make a pen (like on CodePen) to show what your change does.
+5. Ask for a Merge:Open a Pull Request to the main project, with a clear title and description of what your change does.
+That's it! Just keep things simple, clear, and thoughtful for others. Thanks for contributing!

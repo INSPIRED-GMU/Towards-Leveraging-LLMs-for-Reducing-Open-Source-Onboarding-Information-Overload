@@ -1,0 +1,23 @@
+Contributing to scikit-learn
+
+Where to Find the Guide:
+The Most Up-to-Date Guide: Check the file `doc/developers/contributing.rst` in the repository or view it online here (link).
+How You Can Help:
+Fixing or Improving Documentation**: If you spot a mistake or can enhance the documentation, you're welcome to send an email to the mailing list or, even better, submit a pull request. You'll find the documentation in the `doc` folder (link).
+Other Ways to Contribute:
+Answer questions on the issue tracker (link).
+Investigate bugs.
+Review pull requests. 
+You can find guidelines here (link).
+Report Issues & Show Support: Report any issues you face and thumbs up issues that matter to you. Spreading the word through blogs, articles, or by starring the project on GitHub also helps!
+
+Quick Links:
+Report a Bug or Request a Feature: Here’s how (link).
+Contribute Code: Start here (link).
+Coding Guidelines: Make sure to read these guidelines (link) to write great code.
+Understanding Existing Code: Tips for reading the code base (link).
+
+Code of Conduct:
+Our Standards: We follow the open, respectful, and considerate principles of the Python Software Foundation. Check them out here (link).
+
+Thanks for considering to contribute to scikit-learn! Your efforts help make the library better for everyone.

@@ -1,0 +1,39 @@
+Contributing to Webpack:
+How to Help
+Stuck with Webpack? It might be a configuration issue. Check your settings carefully.
+Still having problems? Ask on Stack Overflow with the `webpack` tag (link)
+Found a bug or have an idea? Report it on GitHub (link)
+Fixing Issues
+Want to fix a bug? Look for issues with the `X5: work required` tag (link).
+Issues are also tagged by difficulty:
+D0: My First Commit` (easy for beginners)
+D1: Easy
+D2: Medium
+D3: Hard
+
+Adding Loaders/Plugins:
+Built your own loader or plugin? Share it! Add it to the relevant list:
+Loaders list(link) or awesome-webpack (link)
+ Plugins list (link) or awesome-webpack (link)
+
+Making Code Changes:
+Set up your local Webpack environment instructions here: (link)
+After getting feedback on your changes, submit a pull request on GitHub.
+Here's how to increase your chance of getting your pull request accepted:
+  Write tests instructions here: (link)
+ Follow the coding style guide
+ Write a clear commit message guide here:(link)
+  Link your pull request to a related issue (if it's a new feature, create an issue first to discuss it)
+ Use GitHub keywords to automatically close the issue when your pull request is merged  more info: (link)
+  If you made a lot of commits, squash them into a single commit instructions here: (link)
+
+Improving Documentation:
+Webpack has a lot of features, and the documentation needs your help!
+Fix typos or improve confusing sections.
+Find documentation issues here: (link)
+Discussions:
+Gitter is for quick questions only. For detailed discussions, share a link to your forum or blog post.
+Getting Started with Development
+Before coding, set up the project locally instructions here: (link). Run it and explore all the commands.
+Don't worry, exploring won't break anything! It will help you understand the project better and get ideas for improvements.
+If you want to work on an issue, leave a comment. If someone else is assigned but inactive, feel free to comment and request reassignment.

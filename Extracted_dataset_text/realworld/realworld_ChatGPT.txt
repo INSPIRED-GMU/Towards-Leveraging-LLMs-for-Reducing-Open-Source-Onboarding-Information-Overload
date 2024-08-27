@@ -1,0 +1,50 @@
+Helping with RealWorld
+Welcome!
+Great to have you onboard to help improve RealWorld! Here’s how you can contribute:
+Rules of Conduct
+Please follow our Code of Conduct (link) to keep RealWorld welcoming for everyone.
+
+Questions or Problems?
+For questions, please don't use the issue tracker. 
+Instead, use our Discussions page (link).
+
+Want to Make RealWorld with Your Tech Stack?
+If you want to make a RealWorld example with a new tech stack, first check Discussions (link) to see if it’s already being worked on. 
+You can start your project here (link).
+
+Found a Bug? If you find a bug, please report it by opening an issue (link).
+
+Have a Feature Idea?
+For feature ideas, first open an issue on our GitHub to discuss.
+How to Submit Your Work:
+Issues: Before submitting, search if the issue already exists here (link).
+Pull Requests (PRs): 
+  1. Search existing pulls (link) to avoid    duplication.
+  2. Discuss major changes in issues before working.
+  3. Fork the repo and create your branch.
+  4. Make your changes and write a good commit message.
+  5. Push your branch and submit a pull request on GitHub.
+  6. If changes are suggested, update your PR as needed.
+  7. Make sure to sign off your work.
+
+After Your PR is Merged:
+After merging, you can delete your branch:
+bash
+git push origin --delete my-fix-branch
+
+Update your local master branch:
+bash
+git checkout master
+git pull --ff upstream master
+
+Writing Good Commit Messages:
+Keep them clear and simple.
+Follow this format: `<type>(<scope>): <subject>`.
+Types can be: `docs`, `feat`, `fix`.
+Scope (optional) could be a specific part of the project you’re working on.
+The subject should briefly describe the change.
+Use the present tense: "Add feature" not "Added feature".
+Don’t end with a period.
+The body should explain why and what changed, contrasting with previous behavior.
+The footer can close issues: “Close #394”.
+Thanks for contributing to RealWorld! Your efforts help make the project better for everyone.

@@ -1,0 +1,74 @@
+Contributing to normalize.css
+
+Welcome and thank you for your interest in contributing to normalize.css!** Here’s a simplified guide to help you get started and make effective contributions.
+Before You Start
+
+Watch a tutorial: A great way to start is by watching a 40-minute walkthrough video on contributing to Next.js(link), which has similar open source project structures.
+Commitment to Open Source**: Understand our commitment to open source (link).
+
+Using the Issue Tracker
+
+The issue tracker is for bug reports, feature requests, and pull requests. Please keep discussions respectful and on-topic. No personal support requests or off-topic discussions.
+Bug Reports
+
+A good bug report shouldn't leave others guessing. Be detailed:
+1. Search if the bug is already reported.
+2. Use the latest `master` branch** to reproduce the bug.
+3. Isolate the problem** with a live example or a reduced test case.
+4. Describe** your environment, steps to reproduce, expected and actual outcomes.
+Feature Requests
+
+We welcome feature requests. Make sure your idea aligns with the project's goals. Explain the benefits and provide context.
+
+Pull Requests (PRs)
+
+Great PRs are very welcome. Keep them focused, and follow these steps:
+
+1. Fork and clone the repo: 
+  
+   git clone https://github.com/<your-username>/normalize.css
+   cd normalize.css
+   git remote add upstream (link)
+
+2. Stay updated:
+ 
+   git checkout master
+   git pull upstream master
+  
+3.Work on a new branch:
+  
+   git checkout -b <topic-branch-name>
+
+4. Commit your changes. Follow commit message conventions (link) and keep your changes focused.
+5. Rebase if needed:
+ 
+   git pull --rebase upstream master
+
+6.Push your branch and open a PR.
+
+CSS Conventions
+
+Use short, to-the-point comments.
+Sort rules and selectors by importance, specificity, then alphabetically.
+Begin comments with “Correct the...” for fixes.
+Specify browser versions when applicable.
+Keep the CSS readable with proper formatting.
+
+Maintainers
+If you have commit access, ensure patches are within scope, have necessary tests, and adhere to project conventions before merging. Use local commands for merging, not GitHub's UI.
+
+Releasing a New Version
+
+Update the CHANGELOG with functional changes.
+Increment version in a single commit.
+Tag the version: `git tag -m "v0.0.0" 0.0.0`.
+Push changes and tags: `git push --tags origin master`.
+Follow `gh-pages` branch instructions for updates.
+
+Semver Strategy
+
+MAJOR: Backwards-breaking CSS rule changes.
+MINOR: Not applicable, as CSS rule changes cannot be backwards-compatible.
+PATCH: Backwards-compatible changes or non-impactful modifications.
+
+Thank you for contributing! Your efforts help improve normalize.css for everyone.**

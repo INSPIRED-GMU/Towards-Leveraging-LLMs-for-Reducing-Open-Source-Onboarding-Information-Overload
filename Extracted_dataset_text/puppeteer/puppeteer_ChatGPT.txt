@@ -1,0 +1,57 @@
+How to Contribute to Puppeteer
+Thank You: First off, thanks for taking the time to contribute!
+Before You Begin
+Contributor License Agreement: Before your contributions can be accepted, you need to sign a Contributor License Agreement. Go to Google's CLA page (link) to sign it. Usually, you only need to do this once.
+Getting the Code
+1.Clone Puppeteer: 
+	bash
+   git clone https://github.com/puppeteer/puppeteer
+   cd puppeteer
+2. Install Dependencies:
+   bash
+   npm install
+
+3. Run Tests:
+  	bash
+   npm run unit
+   
+Code Reviews:
+Every submission needs review. We use GitHub pull requests. Learn about pull requests (link).
+
+Code Style:
+
+Follow coding style in `.eslintrc`. Use Prettier for auto-formatting. Run `npm run eslint-fix` for automatic formatting.
+Annotate JavaScript with closure annotations. Type all variables and return types in TypeScript.
+
+TypeScript Guidelines:
+
+Avoid `any` if possible. Consider `unknown` as a better alternative. Using `any` will generate a warning.
+Project Structure
+Code is in `src` for source code and `vendor` for dependencies.
+Puppeteer ships CommonJS (CJS) and ESM bundles, maintaining two tsconfig files for each project.
+Commit Messages:
+Follow the Conventional Commits format. Note "BREAKING CHANGE:" for breaking changes.
+Documentation:
+Document all public API in `docs/api.md`. 
+Document new features or changes using TSDoc comments.
+Adding New Dependencies:
+Only add a dependency if it's critical. Ensure it's well-maintained and trustworthy.
+Testing:
+Every feature and public API event should have a test.
+Tests should work on Mac, Linux, and Windows.
+For Project Maintainers:
+Rolling New Chromium Version: Find a suitable Chromium revision, update `src/revisions.ts`, ensure tests pass, and submit a PR.
+Releasing to npm: Mark a release, ensure PRs pass checks, merge, publish release notes, and automatically publish new releases through CI.
+
+How to Contribute:
+1. Search Before Contributing: Check existing issues or PRs before starting.
+2. Reporting Issues: Describe the problem in detail, including steps to reproduce, expected and actual behavior.
+3. Submitting Pull Requests:
+   Fork the repository and create a new branch for your changes.
+   Ensure your changes follow the coding conventions and include tests.
+   Submit a PR against the `master` branch.
+General Guidelines
+Stay Updated: Work off the latest `master` branch.
+Be Detailed: Provide as much detail as possible in bug reports or PRs.
+Follow Guidelines: Stick to the coding style and commit message guidelines.
+Contributing to Puppeteer means following these guidelines to help improve the project. Thank you for your contributions!

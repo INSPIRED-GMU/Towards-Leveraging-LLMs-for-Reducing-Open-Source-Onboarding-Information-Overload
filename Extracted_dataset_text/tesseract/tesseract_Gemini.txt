@@ -1,0 +1,25 @@
+Contribute to Tesseract:
+
+Got a question or bug?
+
+Check the forum link: (link) for help with using Tesseract, installing it, accuracy, or training.
+Search for similar issues before creating a new one. 
+Read the docs link: (link) before asking questions.
+Only report issues on recent versions (Linux < 4 years old, Windows 7+, Mac latest 3).
+Reporting a bug:
+Include your operating system version (e.g., Ubuntu 16.04).
+Search for existing reports.
+Try the latest snapshot version.
+Verify you can repeat the bug with the Tesseract command line program.
+Include example files (without private info) to show the problem.
+Copy error messages instead of screenshots.
+Use code formatting for code samples.
+Be patient, volunteers may answer your questions.
+
+Developers: Submitting changes:
+Make sure your changes work by building and running Tesseract successfully.
+Follow the instructions in the README and testing README link: (link).
+Build the library and command line by running "make" after configuring.
+Test your changes with "make check".
+Build training tools with "make training".
+Fork Tesseract on GitHub and submit a pull request link: (link).

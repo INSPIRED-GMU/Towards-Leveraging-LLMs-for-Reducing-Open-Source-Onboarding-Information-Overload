@@ -1,0 +1,40 @@
+Contributing to Atom? Awesome! 
+Quick Links
+Atom Organization on GitHub (link)
+Code of Conduct (link)
+GitHub Discussions for Atom (link)
+FAQs (link)
+
+Getting Started
+Atom is big – it’s made of over 200 parts called repositories. When you want to help out, you might wonder where to start. The project uses lots of packages (little bits of software) to do different things. Most of the stuff you see and interact with in Atom comes from these packages.
+
+Main Parts of Atom You Might Work On
+Atom Core(link): The heart of Atom. It handles the text editing and more.
+tree-view (link): Shows files and folders.
+fuzzy-finder (link): Helps you find files fast.
+find-and-replace (link): For searching and replacing text.
+And many more. Check out this list (link) for all the core packages.
+
+How to Help
+Got a question? Don't open an issue. Use GitHub Discussions (link) instead.
+Found a bug or have an idea?  First, see if someone else has already reported it. If not, go ahead and report it. Use a clear title, describe the issue in detail, and add any steps to reproduce it. Include screenshots or GIFs if you can.
+Want to add something new or improve Atom?** Great! Check if someone else has suggested the same thing. If not, suggest your enhancement with as much detail as possible.
+
+Your First Contribution
+Start simple. Look for issues labeled “beginner” or “help wanted.”
+Follow the Atom Style Guide (link) when writing code.
+Make sure all checks pass on your pull request.
+
+Style Guides
+Write commit messages in the present tense.
+Use emojis in commit messages if you like!
+Follow coding styles for JavaScript, CoffeeScript, and documentation.
+
+Need More Info?
+There’s a lot more about working with issues, pull requests, and local development in the Atom Flight Manual (link).
+
+Remember:
+Always follow the Code of Conduct (link).
+Be respectful and professional in your interactions with the community.
+
+Happy contributing! Your work helps make Atom even better for everyone.

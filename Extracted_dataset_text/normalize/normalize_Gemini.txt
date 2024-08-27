@@ -1,0 +1,31 @@
+contributing to normalize.css:
+
+Before you start:
+
+Read this guide to make things smooth for everyone.
+
+Reporting bugs:
+
+Search for existing issues first  (link).
+Try to reproduce the bug with the latest version.
+Create a minimal example of the bug (e.g., on Codepen).
+Include details like your environment, steps to reproduce, browsers affected, and expected outcome.
+
+Suggesting features:
+
+Make sure your idea fits the project's goals.
+Provide as much detail and context as possible.
+
+Submitting improvements:
+
+Ask the developers first for big changes.
+Follow the coding style used in the project.
+Create a new branch for your changes.
+Commit your changes in small logical groups with clear messages.
+Write tests for your changes (if applicable).
+Push your changes to your fork on GitHub.
+Open a pull request with a clear title and description.
+
+Important:
+By contributing, you agree to the project's license.
+

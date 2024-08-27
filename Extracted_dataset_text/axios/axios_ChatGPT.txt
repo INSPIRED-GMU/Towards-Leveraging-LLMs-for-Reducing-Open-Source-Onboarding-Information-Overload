@@ -1,0 +1,35 @@
+Helping Out
+We welcome and appreciate help from the community. When you help with axios, you need to follow our rules of conduct.
+Code Style
+Please use the node style guide for writing code.
+Commit Messages
+When you make changes, your commit messages should start with verbs like:
+Fixing 
+Adding 
+Updating 
+Removing 
+Testing
+If you change the code, you need to update the tests too. We can't accept changes if they don't pass tests on Travis CI.
+Documentation
+Make sure the documentation matches the actual code and its features.
+
+Developing
+Use these commands for different tasks:
+`grunt test` to run jasmine and mocha tests
+`grunt build` to bundle the source with webpack
+`grunt version` to get the code ready for a new release
+`grunt watch:test` to watch for changes and test
+`grunt watch:build` to watch for changes and build
+
+Please don't add changes to the `dist/` folder in your pull request. It's only updated when releasing a new version.
+
+Releasing
+Releasing a new version is mostly done by itself. However, you need to manually update the CHANGELOG. Follow these steps and use semantic versioning for new versions:
+- `npm version <newversion> -m "Releasing %s"`
+- `npm publish`
+
+Running Examples
+You can manually test using the included examples.
+To run examples in a browser, use `$ npm run examples` and open `127.0.0.1:3000`.
+To start the sandbox in a browser, use `$ npm start` and open `127.0.0.1:3000`.
+To run the sandbox in the terminal, use `$ npm start` and then `$ node ./sandbox/client`.

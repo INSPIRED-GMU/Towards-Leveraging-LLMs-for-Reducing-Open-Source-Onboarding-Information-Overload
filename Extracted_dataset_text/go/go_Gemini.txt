@@ -1,0 +1,27 @@
+Contributing to Go in a Flash
+
+Go is open source and welcomes help!
+
+Finding Bugs:
+
+Not sure if it's a bug? Ask on golang-nuts mailing list (link)  first.
+
+Reporting Bugs:
+
+Security issues? Email security@golang.org (see security policy: (link) .
+* Other bugs? Run "go bug" command or answer these questions when reporting:
+    1. What Go version are you using (type "go version")?
+    2. What operating system and processor are you using?
+    3. What did you do?
+    4. What did you expect to happen?
+    5. What actually happened?
+
+Proposing Changes:
+
+See "Proposing Changes To Go" (link) 
+
+Writing Code:
+
+Read Contribution Guidelines first (link) .
+Most Go code uses the BSD-style license (see LICENSE file).
+

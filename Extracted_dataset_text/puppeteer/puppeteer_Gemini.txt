@@ -1,0 +1,92 @@
+Contributing to Puppeteer:
+How to Contribute
+Welcome! We appreciate your interest in helping!
+Before you start:
+Agree to share your code Contributor License Agreement: (link)
+Getting the code:
+1. Clone the Puppeteer repository:
+   bash
+   git clone https://github.com/puppeteer/puppeteer
+   cd puppeteer
+ 2. Install dependencies:
+  bash
+   npm install
+3. Run Puppeteer tests:
+  bash
+   npm run unit
+Your changes:
+All changes require review using GitHub pull requests see (link)
+Code style:
+Follow formatting defined in .eslintrc (code formatter). Set it up in your editor or run:	bash
+npm run eslint-fix
+Use closure annotations for JS files see (link)
+Explicitly type variables in TS files (ESLint will warn you)
+Run ESLint to check code style:
+   bash
+    npm run eslint
+   
+ Run type checks:
+    bash
+    npm run tsc
+
+Project Structure:
+Puppeteer code is mainly in two folders:
+ src: source code
+ vendor: external dependencies (see vendor/README.md)
+
+Writing Documentation:
+All public API needs documentation in docs/api.md (a linter checks documentation).
+    Run linter:
+       bash
+       npm run doc
+
+Use TSDoc comments for changes see (link). Mark methods as public or internal.
+
+Running New Documentation Website Locally:
+
+1. Install dependencies:
+bash
+   npm i
+
+2. Generate docs:
+bash
+   npm run generate-docs
+
+3. Install and start website:
+bash
+   npm i -C puppeteer/website
+   npm start -C puppeteer/website
+   
+Adding New Dependencies:
+
+Avoid unnecessary dependencies.
+Choose well-maintained and trusted ones.
+See vendor/README.md for environment-agnostic dependencies.
+
+Running & Writing Tests:
+Every feature and public API method/event should have a test.
+Tests shouldn't rely on external services.
+Tests should work on Mac, Linux, and Windows.
+Puppeteer tests are in the test directory (written with Mocha, see test/README.md).
+Run all tests:
+bash
+npm run unit
+
+ 	Run specific tests with `it.only` or disable them with `xit`.
+	Run tests in non-headless mode:
+    	bash
+       HEADLESS=false npm run unit
+
+	Run Firefox tests (install Firefox first):
+     	bash
+       PUPPETEER_PRODUCT=firefox node install.js
+       PUPPETEER_PRODUCT=firefox npm run unit
+ 	 Run tests with a custom browser:
+ 	bash
+       BINARY=<path-to-executable> npm run unit
+
+Check public API coverage with:
+bash
+npm run coverage
+For Project Maintainers
+See the readme for Debugging Tips .

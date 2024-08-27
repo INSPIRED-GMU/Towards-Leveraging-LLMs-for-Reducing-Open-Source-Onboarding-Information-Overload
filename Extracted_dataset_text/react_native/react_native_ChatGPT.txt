@@ -1,0 +1,38 @@
+Helping with React Native
+Welcome!
+Thanks for wanting to help with React Native! You can help in many ways, not just by coding. We want to make a friendly and welcoming place for everyone.
+Quick Help Links
+Learn how to start with open source: Open Source Guides (link)
+Remember to follow our Code of Conduct (link).
+Ways to Contribute
+Start Coding: Look at "good first issues" (link) for smaller problems to solve.
+Help with Issues: Answer questions or help clarify issues reported by others. 
+Check how to do this here (link).
+Improve Documentation: Fix typos or unclear parts in the documentation at React Native Docs (link).
+Assist with Testing: Help by making test plans clearer for pull requests.
+How We Work
+We track work with GitHub issues and pull requests.
+Changes from the community and Facebook are reviewed and tested.
+Learn more about working with us on Issues (link) and Pull Requests (link).
+Repositories to Know
+Main Repo: React Native (link) for the framework.
+Docs and Website: React Native Website (link).
+Releases and Changes: Release Discussion (link) and Changelog (link).
+Future Ideas: Discussions and Proposals (link).
+Contributing Code
+1.Fork and Branch: Make your own version of React Native and create a branch for your work.
+2. Make Changes: Work on your idea and use the React Native tester app to check it.
+3. Add Tests: If you're adding new code, write tests for it.
+4.Update Docs: If you changed how things work, update the documentation(link).
+5. Pass Tests: Make sure your changes pass all tests.
+6.Open a Pull Request: Show your changes to the community for review.
+7. Sign the CLA: Agree to the Contributor License Agreement (link) if it's your first time contributing.
+Extra Ways to Help
+Share your React Native experiences or tips through blogs or social media.
+Talk to us on Twitter @reactnative (link) or if you need help, ask!
+Getting Help
+If you're stuck or need help, you're not alone! You can:
+Tweet @reactnative (link) for quick questions.
+Create a proposal for big features to get feedback before starting.
+
+Happy contributing! Your help makes React Native better for everyone.

@@ -1,0 +1,24 @@
+Contributing to VS Code:
+
+How to Help
+Got a question? Ask on Stack Overflow tagged vscode instead of filing an issue ((link)
+Want to share feedback? Use the channels listed here: (link)
+Reporting Issues:
+Found a bug or want a new feature? Report it as an issue on GitHub.
+ Before reporting, check these things:
+Is the issue in the right project? (See related projects list:(link))
+Does the issue happen without any extensions? If so, report it to VS Code. If caused by an extension, report it to that extension's repo.
+Has someone already reported it? Search existing issues first (link). 
+Upvote existing issues you agree with instead of adding "+1" comments.
+If you can't find your issue, report a new one with these details:
+One issue per problem or feature request.
+Version of VS Code, operating system, extensions you have installed.
+Steps to reproduce the issue.
+What you expected to see vs what you actually saw (screenshots or videos are helpful!).
+Code snippet showing the issue (developers need to copy/paste this, so don't use images).
+Any error messages from the Dev Tools Console.
+Fixing Issues
+If you want to fix bugs, see the guide on contributing code: (link)
+Thanks!
+
+Your contributions help make VS Code great!

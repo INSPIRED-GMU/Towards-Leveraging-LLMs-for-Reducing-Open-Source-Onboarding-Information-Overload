@@ -1,0 +1,26 @@
+Contributing to the Windows Terminal project:
+How to Contribute
+Find an Issue:Before you start working on something, check if there's already an issue reported for it. Search existing issues (link).
+Report a new issue: If you can't find an existing issue, report a new one.  Use the template provided and include details like your device info, repro steps, and error messages. Don't forget to upvote existing issues you agree with!
+Fix an Issue / Add a Feature:If you want to fix an issue or add a feature, there are different categories to help you find the right one:
+ Easy Starter: These are good for beginners (link). 
+ Help Wanted:These issues need help from the community (link).
+Bugs:Issues with existing features.
+Tasks:Smaller new features.
+Features:Larger new features that require discussion.
+Discuss your approach:Once you've found an issue, talk to a team member about how you plan to fix it. 
+Specs:Some features may require a written design document (spec) before coding starts. (link)
+Fork, Branch, PR:** Once you have a plan, follow these steps:
+    1. Fork the repo on GitHub.
+    2. Clone your fork to your computer.
+    3. Create a new branch for your changes.
+    4. Create a draft pull request (PR).
+    5. Make your code changes.
+    6. Test your changes (consult How to build OpenConsole if needed).
+    7. Mark your PR as "Ready for Review" when you're ready for feedback.
+Code Review:The team will review your code and provide feedback. There may be a few rounds of changes before it's merged.
+Merge: Once your code is approved, it will be merged into the main branch.
+
+Additional Info
+Don't post "+1" comments on issues, upvote them instead.
+The team uses labels to categorize issues. Security issues should be reported directly to Microsoft.

@@ -1,0 +1,7 @@
+How to Report an Issue
+If you would like to report a problem you find when using     include: you-get , please open a Pull Request (link), which should include:
+1.	A detailed description of the encountered problem;
+ 
+2.	At least one commit, addressing the problem through some unit test(s). Examples of good commits: #2675,(link)  #2680,(link) #2685 (link)
+
+PRs that fail to meet the above criteria may be closed summarily with no further action. A valid PR will remain open until its addressed problem is fixed.

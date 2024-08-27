@@ -1,0 +1,23 @@
+How to Contribute to TensorFlow
+TensorFlow welcomes your contributions! Here's a quick guide to get you started:
+Before you submit your changes:
+Read the contribution guidelines (link) and code of conduct ((link).
+Sign the Contributor License Agreement (CLA) if you haven't already individual: (link), corporate:(link).
+ Make sure your changes follow the coding style guide.
+Run the unit tests to ensure your changes work correctly.
+Finding issues to contribute to:
+Browse the "issues" tab on the TensorFlow GitHub repo (link)to find interesting issues.
+Look for issues with the "good first issue" label (link)for beginner-friendly tasks.
+If you're unsure where to start, comment on an issue to let others know you're working on it.
+Submitting your changes:
+Create a pull request on GitHub (https://docs.github.com/en/pull-requests)).
+Reviewers will check your pull request and provide feedback.
+Once approved, your changes will be merged into TensorFlow.
+Additional Resources:
+TensorFlow coding style guide:
+    C++: (link)
+    Python: (link)
+    Other languages:(link)
+ Running unit tests: (link)
+Building TensorFlow from source: (link)
+We appreciate your contributions to TensorFlow!

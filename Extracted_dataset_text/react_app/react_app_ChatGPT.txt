@@ -1,0 +1,61 @@
+Helping Out with Create React App
+If you like Create React App and want to help, thank you! Here’s a simple guide to get started.
+
+Basics
+Please read this guide carefully to help make the contribution process easy for everyone. Following these steps shows you value the time of the developers working on this project. They will do the same for your contributions.
+
+Main Ideas
+We try to keep things simple:
+Avoid extra settings and options.** We aim to make things easy for beginners.
+Follow standard ways of doing things** instead of adding many settings.
+Use smart guesses** to make the app work well in different situations.
+
+Examples:
+Standard Approach:** We always use `src/index.js` as the start file. We choose the bundle name for you, including a content hash for updates.
+Smart Guesses: By default, `npm start` runs on port 3000. But if you’re using a cloud IDE that needs a specific port, Create React App checks the PORT environment variable and uses it.
+Interactivity Over Settings:** If port 3000 is busy, `npm start` will ask if you want to use a different port instead of failing.
+
+Breaking the Rules
+Sometimes, if it’s really needed, we add options. For example, if your app is hosted at a path other than the root, you can set the `homepage` in `package.json`. We try to guess the right settings when we can.
+
+Making a Pull Request
+Keep your changes focused.
+Check if there’s already work being done on your idea.
+Include a test plan to show your changes work.
+
+Folder Structure
+Create React App is split into sub-packages in the `packages/` directory, like `babel-preset-react-app` and `react-scripts`. Each has a specific role, like setting up the development server or compiling the code.
+
+Setting Up Locally
+You need `npm@7` and `yarn@1`.
+Clone the repo: `git clone (link)
+ Run `npm install` in the main folder.
+You can then change files and test locally using `npm start`, `npm test`, or `npm run build`.
+
+Contributing to Tests
+Use `npm run e2e:docker` to run tests.
+For more details, see the README in the test folder.
+
+Using Private Packages in Tests
+If you need to use private packages, you might need to adjust the test configuration.
+Edit `task/verdaccio.yaml` for package registry settings. See Verdaccio documentation for help.
+
+Windows Tips
+Use Bash on Ubuntu on Windows for scripts.
+Install Node.js and yarn again inside Bash.
+Set `git config core.autocrlf false` to avoid line ending issues.
+
+Releasing a New Version
+Tag pull requests with milestones and labels.
+Close the milestone for the release and set up a new one.
+Only update `react-scripts` unless there are changes in other packages.
+Update the changelog and release notes.
+Run `npm run publish` to release the packages.
+Test the released version thoroughly.
+
+Releasing the Docs
+Go to `docusaurus/website`.
+Run `npm ci` and `npm run build`.
+Deploy the site with your GitHub username and access token.
+
+Thanks for considering contributing to Create React App!

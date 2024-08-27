@@ -1,0 +1,37 @@
+How to Contribute to This Project
+
+Thanks for your interest! Here's a simple guide to contributing, whether it's reporting issues, suggesting improvements, or adding to the project itself.
+
+Reporting Issues:
+Requesting a Channel: Create a request for a single channel at a time using this form (link). 
+We need detailed information to help you.
+  
+Reporting a Broken Stream: If a stream isn't working, let us know through this form (link) with details of the issue.
+
+Content Removal: If you want us to remove content you own, use this form (link) with all necessary info.
+
+Pull Requests:
+
+Adding/Replacing a Stream: Follow these steps to add or replace a stream, ensuring the link works (use VLC media player (link) to test), checking the channel's availability internationally (with a VPN or (link), and finding the correct country code (link). Update the relevant playlist file with your changes.
+
+-Updating Documentation: Make changes to the README.md by editing `.readme/template.md` or contribute to this guide by modifying `.github/CONTRIBUTING.md`. Then, submit a pull request with your updates.
+
+Stream Description Format
+
+Make sure your stream's description follows this format:
+
+#EXTINF:-1 tvg-id="CHANNEL_ID",CHANNEL_NAME (RESOLUTION) [LABEL]
+STREAM_URL
+
+Include details like `CHANNEL_ID`, `CHANNEL_NAME`, `RESOLUTION`, and any relevant labels (`Geo-blocked` or `Not 24/7`). If necessary, specify custom HTTP User-Agent and Referrer.
+
+Project Structure
+
+The project is organized into several directories:
+ `.github/`: Contains GitHub issue templates and workflows.
+`.readme/`: Files to compile the README.md.
+`scripts/`: Scripts used in GitHub workflows.
+`streams/`: Stream files categorized by country.
+`tests/`: Test scripts for the project.
+
+Check out the CONTRIBUTING.md file (which you're reading now) for more detailed guidelines on how to contribute.

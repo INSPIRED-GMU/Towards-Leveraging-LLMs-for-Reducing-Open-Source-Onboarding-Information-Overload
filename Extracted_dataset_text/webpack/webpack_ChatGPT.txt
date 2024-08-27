@@ -1,0 +1,43 @@
+How to Help Out with Webpack
+
+Welcome! Every bit of help counts, and we're happy you're here. Before you start working on a new feature or a big change, please make an issue about it. This helps make sure your effort isn't wasted.
+
+Asking Questions
+Got a Configuration Issue? It's usually something small. If you can't figure it out, ask on Stack Overflow (link) under the webpack tag. Make sure to share your `webpack.config.js`, any relevant files, and the full error message to get better help.
+Found a Bug or Have a Suggestion?Head over to GitHub issues (link) and let us know.
+
+Want to Fix an Issue?
+Pick an Issue:Check out issues labeled X5: work required (PR / Help Wanted) (link). 
+They're sorted by difficulty:
+D0: Great for beginners
+D1: Easy
+D2: Medium
+D3: Hard
+
+Created a Loader or Plugin?
+Share It:Add it to the list of loaders (link) or awesome-webpack (link) for loaders, and the same for plugins.
+
+Setting Up
+Get Ready:Set up(link) your local webpack repo.
+
+Making Changes
+Feedback:After discussing your changes and getting feedback, push to your fork and make a pull request.
+Increase Acceptance Chances:
+ Write tests
+ Follow the existing style
+ Write a meaningful commit message
+Big Changes:For major work, make sure there's an issue for it. This helps discussion and idea polishing.
+Close Issues Automatically: Make sure your PR description mentions which issue it closes to automatically close it when the PR is merged.
+Squash Commits:If you have many commits in your PR, it's a good idea to squash them into one. Learn how to squash here (link).
+
+Helping with Documentation
+Every Bit Helps:Fixing typos or clarifying documentation is highly appreciated. Check out the documentation issues (link) to find something to help with.
+
+Join the Discussion
+Small Questions: Gitter is good for quick help. For detailed discussions, consider writing a forum post or blog and share it in the chat.
+
+Join the Development
+Get Familiar: Set up the project locally, try out all the commands, explore the application to understand it better.
+Claim an Issue:Want to work on something? Comment on the issue. If it's assigned but inactive, feel free to ask if you can take over.
+
+Thank you for contributing!** Your efforts make projects like Webpack even better.

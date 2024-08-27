@@ -1,0 +1,21 @@
+contributing to Semantic UI:
+
+Help Semantic UI!
+
+Got a question about using Semantic UI?
+
+Ask other users in the chatroom (link) or forum (link) instead of reporting a bug.
+
+Found a bug?
+
+Report it on GitHub.
+Make a simple example (link) showing the bug.
+Write clear steps to show how to reproduce the bug.
+ Mention what browser and operating system you're using.
+
+Fixing bugs? Great!
+
+Look for open issues on GitHub.
+Fix the bug and submit a pull request (link).
+Follow the coding guidelines so your code matches the rest of the project.
+

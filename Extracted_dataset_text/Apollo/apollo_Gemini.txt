@@ -1,0 +1,56 @@
+Helping fix AGC code
+
+This document explains how to help fix the code for old computers called AGCs. 
+
+About the code
+
+The code was typed from paper copies, so there might be mistakes.
+We need to fix the code to match these paper copies.
+The paper copies are called "AGC printouts" for Comanche and Luminary.
+
+Help from your computer programs
+
+There are special programs you can add to your code editor to help you see the AGC code better. 
+These programs are called "AGC language extensions".
+Not all programs have these extensions, but some do like:  
+      Atom
+      CodeBlocks
+      Visual Studio Code  
+These programs with a † symbol can also automatically format the code for you.
+
+How to format the code
+
+Use the "tab" key to indent lines instead of spaces.
+Make sure each tab is 8 spaces wide.
+Get rid of any extra spaces at the end of lines.
+
+What to check
+
+Look for any differences between the paper copies and the code on the computer.
+
+Comments in the code
+
+The comments in the code MUST match the paper copies exactly, even if they seem wrong.
+
+What mistakes to look for
+
+Typos: Sometimes the people who wrote the code originally made typos in the comments. These typos might have been fixed or added when the code was typed from paper. 
+Spaces: The number of spaces between words in the comments should match the paper copies. 
+    Usually one space for new words.
+    Usually two spaces for new sentences.
+    Usually three spaces for indents.
+    Not all the paper copies follow this rule, so copy the number of spaces you see.
+Line breaks:
+Lines that start with "R0000" in the first spot (column) must have line breaks exactly like the paper copies.
+Lines that don't start with "R0000" in the first spot can only have one or two blank lines in a row. If there are more than two, get rid of the extra ones. Lines with "R0000" don't count.
+Read more about line breaks in issue #159.
+
+Before you submit your changes
+
+Make sure your changes match the paper copies exactly!
+
+Remember:
+AGC = Old computer
+Printouts = Paper copies
+Extension = Special program for your code editor
+Issue = Discussion about a problem

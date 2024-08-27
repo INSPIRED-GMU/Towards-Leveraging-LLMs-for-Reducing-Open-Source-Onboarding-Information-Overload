@@ -1,0 +1,13 @@
+how to report an issue for you-get:
+
+Found a problem with you-get? Help fix it!
+
+1. Open a Pull Request on GitHub link to Pull Requests: (link). This is like a suggestion box to fix the problem.
+
+2. Write a clear description of the problem you found. What happened and what did you expect to happen instead?
+
+3. Add a fix (at least one commit)This shows how to solve the problem. You can look at these examples for inspiration: #2675: (link), #2680:(link), #2685:(link)
+
+Tips: If you don't know how to fix the problem yourself, that's okay! Just report the issue clearly.
+They might close your request if it doesn't have a description and a fix.  
+Once they fix the problem you reported, they'll close your request. 

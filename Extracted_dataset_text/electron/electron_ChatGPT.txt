@@ -1,0 +1,57 @@
+Contributing to Electron
+👍🎉 First, thank you for wanting to help! 🎉👍
+
+We follow the Contributor Covenant code of conduct. By joining in, you're expected to follow this code. If you see behavior that's not acceptable, email us at coc@electronjs.org.
+
+Here are some guidelines for contributing to Electron. They're not strict rules. Use your best judgment, and feel free to suggest changes to this document in a pull request.
+
+Issues
+You can create issues here (link).
+
+How to Help with Issues:
+Asking for help
+ Reporting a bug
+Helping with a bug report
+Fixing a bug report.
+
+When We Close Issues:
+If no one has added to an issue for a while and it's about a version we no longer support, we might close it. Electron keeps updating and supports the three latest major versions. We release a new major version every 8 weeks. Learn more about how we release versions (link).
+
+If an issue is closed but you think it's still relevant, you can get our attention by commenting or reaching out to a maintainer.
+
+Languages
+We take issues in any language. If you write in a language other than English, it's good to also post an English translation. Anyone can translate; a quick use of translation software is often enough. Having both the original and the translation helps avoid misunderstandings.
+
+Replies might be in English or the original language.
+
+Using non-English to avoid our Code of Conduct may lead to a ban from the project.
+
+Pull Requests
+Pull Requests (PRs) are how we make changes to the code, documentation, dependencies, and tools in the electron/electron repository.
+
+Setting Up Locally
+1. Fork the repository.
+2. Build Electron on your computer.
+3. Branchoff for your changes.
+
+ Making Changes
+4. Code your changes.
+5. Commit your changes.
+   - Follow our commit message guidelines.
+6. Rebase your branch if needed.
+7. Test your changes.
+8. Push your changes to GitHub.
+9. Open a PR.
+10. Discuss and make any needed updates.
+    - We have a workflow for approval and requesting changes.
+   
+11. Landing your changes means they get merged into Electron.
+
+Continuous Integration Testing
+We run tests automatically for PRs. Make sure your changes pass these tests.
+
+Style Guides
+Check out our Coding Style (link) guide to see the standards Electron follows.
+
+Learn More
+For detailed guides on Electron development, see the /docs/development (link) section.

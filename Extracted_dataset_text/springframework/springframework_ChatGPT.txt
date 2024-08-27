@@ -1,0 +1,31 @@
+How to Contribute to Spring Framework
+Quick Start
+Ask Questions: Use Stack Overflow (link) for help.
+Find or Report Issues: Check GitHub issues (link) for similar reports or create a new one.
+Pull Requests: For contributing code, directly submit a pull request (PR) to our GitHub repository.
+
+Code of Conduct:
+Please follow our Code of Conduct (link). 
+Report unacceptable behavior to spring-code-of-conduct@pivotal.io.
+Creating Issues
+Research First: Look for existing issues or discussions on Stack Overflow.
+Report with Details: If you’re reporting a bug or requesting a feature, provide detailed steps or a description. Use a Minimal Reproducible Example (link) when possible.
+
+Pull Requests (PR)
+1. License Agreement: Sign the Contributor License Agreement (link) if you haven't already.
+2. Issue First?: No need to create an issue first, describe your changes well in the PR itself.
+3. Target Branch: Submit PRs against the `main` branch. For specific versions, check `settings.gradle`.
+4. Commit Messages: Keep them clear. Use a concise 55 character summary, detail within 72 characters per line, and reference issues fixed.
+5. Prior Issues: Reference any related GitHub issue numbers in your PR.
+6. Reviews: Contributions may be modified before merging. You may be asked to make changes—just push them to the same branch.
+
+Reviews and Building from Source
+Participate in Reviews: Feel free to review other PRs, but leave approval to core committers.
+Build Instructions: See Build from Source (link) for how to build and import Spring Framework source code.
+
+Style Guides and Docs:
+Follow our Code Style (link) guidelines.
+Reference documentation is under `src/docs/asciidoc`. 
+Use Asciidoctor for changes and check with `./gradlew asciidoctor`.
+
+Your contributions are valuable to making Spring Framework better for everyone. Thank you for your involvement! 

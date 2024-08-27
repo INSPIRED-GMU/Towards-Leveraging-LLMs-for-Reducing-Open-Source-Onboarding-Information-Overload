@@ -1,0 +1,25 @@
+Here's how you can help improve Godot, a popular game engine. Whether you're finding bugs, suggesting new features, writing code, helping with translations, or talking to the developers, your contribution is welcome.
+
+Quick Guide to Contributing
+Finding and Reporting Bugs
+One Bug Per Issue:Please report one bug per issue. If you've found multiple bugs, open an issue for each.
+Search Before Reporting:  Your issue might already be reported. Check the issue tracker (link)first.
+Give Details: Mention your operating system, Godot version, device, and graphics info. Clearly describe the steps to reproduce the bug.
+Use Examples:If possible, attach a simple project file that shows the bug. This helps us fix it faster.
+Suggesting Features
+Where to Suggest:We use a separate repository for feature proposals (link). Check the instructions there to make your suggestion.
+Be Clear and Detailed: Well-thought-out proposals are more likely to be considered.
+Contributing Code
+Is It Wanted?:Ensure the feature you're adding or the bug you're fixing is something the community needs.
+Discuss First: It's a good idea to talk about what you're planning to do with the developers first, especially for big changes.
+Add Tests and Docs: Include tests for bugs or new features. Update the documentation for any new features or changes to Godot's behavior.
+Keep Git History Clean: Make focused pull requests on one topic, rebase your fork to avoid merge commits, and squash your commits if they fix issues in previous ones in the same PR.
+Commit Messages Matter:Write readable commit messages with a concise title. Detail what your commit does and why.
+Helping with Translations
+Godot's Translations: You can help translate Godot and its documentation on Hosted Weblate(link). Check the translation readme (link) for more info.
+Talking to Developers
+Join the Chat: The Godot Contributors Chat (link) is where you can talk directly to the core team.
+Use the Bug Tracker:Comment on existing issues or open a new one if you have a specific development topic in mind.
+Feature Proposals:Have a feature idea? The feature proposals tracker (link) is the place to share it. Chatting with contributors first can help refine your idea.
+Thanks for Helping!
+Your efforts help make Godot even better for everyone. The development team appreciates your interest and contributions.
